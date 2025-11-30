@@ -1,0 +1,25 @@
+~ # netstat -lnptu
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      1953/lighttpd
+tcp        0      0 192.168.225.1:7777      0.0.0.0:*               LISTEN      1410/qmi_ip_multicl
+tcp        0      0 127.0.0.1:5037          0.0.0.0:*               LISTEN      523/adbd
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1392/rpcbind
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1953/lighttpd
+tcp        0      0 192.168.225.1:53        0.0.0.0:*               LISTEN      378/dnsmasq
+tcp        0      0 :::111                  :::*                    LISTEN      1392/rpcbind
+tcp        0      0 fe80::78d9:acff:fe1f:2415:53 :::*                    LISTEN      378/dnsmasq
+tcp        0      0 :::22                   :::*                    LISTEN      1/init
+udp        0      0 192.168.225.1:53        0.0.0.0:*                           378/dnsmasq
+udp        0      0 0.0.0.0:54335           0.0.0.0:*                           1392/rpcbind
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           378/dnsmasq
+udp        0      0 192.168.225.1:7755      0.0.0.0:*                           1410/qmi_ip_multicl
+udp        0      0 192.168.225.1:7755      0.0.0.0:*                           1410/qmi_ip_multicl
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1392/rpcbind
+udp        0      0 fe80::78d9:acff:fe1f:2415:53 :::*                                378/dnsmasq
+udp        0      0 :::62791                :::*                                1392/rpcbind
+udp        0      0 :::111                  :::*                                1392/rpcbind
+~ # 
+
+
+
