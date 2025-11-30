@@ -1,0 +1,34 @@
+~ # cat /proc/modules 
+machine_dlkm 69632 0 [permanent], Live 0x00000000 (O)
+wsa881x_dlkm 45056 1 machine_dlkm, Live 0x00000000 (O)
+wcd934x_dlkm 274432 1 machine_dlkm, Live 0x00000000 (O)
+swr_ctrl_dlkm 24576 1 wcd934x_dlkm, Live 0x00000000 (O)
+wcd9xxx_dlkm 57344 1 wcd934x_dlkm, Live 0x00000000 (O)
+mbhc_dlkm 40960 1 wcd934x_dlkm, Live 0x00000000 (O)
+wcd_core_dlkm 131072 4 machine_dlkm,wsa881x_dlkm,wcd934x_dlkm,wcd9xxx_dlkm, Live 0x00000000 (O)
+stub_dlkm 16384 1 - Live 0x00000000 (O)
+swr_dlkm 24576 2 wsa881x_dlkm,swr_ctrl_dlkm, Live 0x00000000 (O)
+pinctrl_wcd_dlkm 16384 0 - Live 0x00000000 (O)
+native_dlkm 114688 0 - Live 0x00000000 (O)
+platform_dlkm 2199552 33 native_dlkm, Live 0x00000000 (O)
+q6_dlkm 921600 5 machine_dlkm,swr_ctrl_dlkm,wcd9xxx_dlkm,native_dlkm,platform_dlkm, Live 0x00000000 (O)
+adsp_loader_dlkm 16384 0 - Live 0x00000000 (O)
+apr_dlkm 131072 4 wcd934x_dlkm,platform_dlkm,q6_dlkm,adsp_loader_dlkm, Live 0x00000000 (O)
+q6_notifier_dlkm 16384 1 apr_dlkm, Live 0x00000000 (O)
+snd_hwdep 16384 2 wcd9xxx_dlkm,platform_dlkm, Live 0x00000000
+snd_soc_core 172032 7 machine_dlkm,wsa881x_dlkm,wcd934x_dlkm,wcd9xxx_dlkm,mbhc_dlkm,stub_dlkm,platform_dlkm, Live 0x00000000
+snd_compress 20480 1 snd_soc_core, Live 0x00000000
+qcrypto 65536 0 - Live 0x00000000
+qcedevice 40960 0 - Live 0x00000000
+qce50 69632 2 qcrypto,qcedevice, Live 0x00000000
+embms_kernel 16384 2 - Live 0x00000000 (O)
+bluetooth_power 16384 0 - Live 0x00000000 (O)
+r8125 167936 0 - Live 0x00000000 (O)
+aqc_ipa_offload 81920 0 - Live 0x00000000 (O)
+usb_f_uac1 20480 2 - Live 0x00000000
+u_audio 16384 1 usb_f_uac1, Live 0x00000000
+snd_pcm 94208 4 wcd934x_dlkm,platform_dlkm,snd_soc_core,u_audio, Live 0x00000000
+snd_timer 32768 2 platform_dlkm,snd_pcm, Live 0x00000000
+snd 61440 11 machine_dlkm,wsa881x_dlkm,wcd934x_dlkm,mbhc_dlkm,platform_dlkm,snd_hwdep,snd_soc_core,snd_compress,u_audio,snd_pcm,snd_timer, Live 0x00000000
+soundcore 16384 1 snd, Live 0x00000000
+
