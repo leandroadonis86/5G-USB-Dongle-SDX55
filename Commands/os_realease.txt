@@ -1,0 +1,7 @@
+~ # cat /proc/self/root/etc/os-release 
+ID="mdm"
+NAME="mdm"
+VERSION="202412101203"
+VERSION_ID="202412101203"
+PRETTY_NAME="mdm 202412101203"
+
