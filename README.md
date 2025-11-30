@@ -5,6 +5,7 @@ Fix, Debug, Access, Tools, Tests and more functionalities for this 5G USB Dongle
 + OS release, mdm 202412101203
 + SW, RXMG1.20.00.326.72_0R19 or RXMG1.20.00.326.73.00_0R19 (upgraded)
 + CPU, codename: SDXPRAIRIE, Quectel RM502Q-AE (compatible)
++ Hardware, Compal GKRRXMG1 M.2 
 
 ## Disclaimer
 
