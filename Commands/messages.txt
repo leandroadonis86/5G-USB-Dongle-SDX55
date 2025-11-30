@@ -1,0 +1,1272 @@
+~ # cat /var/log/messages 
+Jan  1 00:00:38 sdxprairie syslog.info syslogd started: BusyBox v1.29.3
+Jan  1 00:00:38 sdxprairie user.debug ceiled: Henry(Led)=> in main ceiled main start
+Jan  1 00:00:39 sdxprairie user.debug ceisar: start to listen
+Jan  1 00:00:39 sdxprairie user.debug ceisar: netlink_event_listen
+Jan  1 00:00:39 sdxprairie user.debug ceioptimize: ril_ind_client_socket_init Entry
+Jan  1 00:00:39 sdxprairie user.err ceioptimize: [rilclient] Client. connection error
+Jan  1 00:00:39 sdxprairie user.debug ceioptimize: uim ind register not ready: 10
+Jan  1 00:00:39 sdxprairie user.err ceiled: [rilclient] Client. connection error
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_get_data_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_req_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_set_log_lv
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_get_ind_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_ind_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_cache_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_cache_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_cache_get_slot_id
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_is_data_cached
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_get_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_set_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_get_async_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_async_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_get_async_cb_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dms_async_msg_cb_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: lib name=/usr/lib/libcriuim.so
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_init
+Jan  1 00:00:39 sdxprairie user.err fs-scrub-daemon: 1446:1446 Error: fs_scrub_read_state_and_resume:1277 No files found .. likely is first boot!
+Jan  1 00:00:39 sdxprairie user.notice fs-scrub-daemon: 1446:1446 Verbose:fs_scrub_qmi_init:800 QMI init done!
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_get_data_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_req_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_set_log_lv
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_get_ind_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_ind_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_cache_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_cache_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_cache_get_slot_id
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_is_data_cached
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_get_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_set_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_get_async_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_async_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_get_async_cb_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_uim_async_msg_cb_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: lib name=/usr/lib/libcrinas.so
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [73] [1] [3] [89]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1498 tftp-server : INF :[tftp_server_utils.c, 113] file [readwrite/mcfg.tmp] : [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_init
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1498 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1498 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1498 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:39 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1498 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:39 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1498 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [65] [2] [3] [90]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server_utils.c, 113] file [readwrite/mcfg.tmp] : [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 10, 0, 0, 0, 0, 0]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [577] [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_get_data_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_req_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_set_log_lv
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_get_ind_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_ind_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_cache_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_cache_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_cache_get_slot_id
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_is_data_cached
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_get_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_set_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_get_async_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_async_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_get_async_cb_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_nas_async_msg_cb_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: lib name=/usr/lib/libcridsd.so
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [73] [1] [3] [91]
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_init
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server_utils.c, 113] file [readwrite/mcfg.tmp] : [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 1, 10, 0, 0, 0, 0]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [65] [2] [3] [92]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [58, 0]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [58, 0, 58, 0]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1517 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1522 tftp-server : INF :[tftp_server_utils.c, 113] file [readwrite/mcfg.tmp] : [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1522 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 0, 0, 0, 0, 0]
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_get_data_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_req_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_set_log_lv
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_get_ind_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_ind_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_cache_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_cache_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_cache_get_slot_id
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_is_data_cached
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_get_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_set_cached_data
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_get_async_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_async_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_get_async_cb_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_dsd_async_msg_cb_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: lib name=/usr/lib/libcriwms.so
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1522 tftp-server : INF :[tftp_server.c, 1554] unlink was success
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [93]
+Jan  1 00:00:39 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_get_data_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_req_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_set_log_lv
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_get_ind_info
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_ind_msg_handler
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_cache_init
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_cache_deinit
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_cache_get_slot_id
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_is_data_cached
+Jan  1 00:00:39 sdxprairie user.debug crid: func name=ril_wms_get_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wms_set_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wms_get_async_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wms_async_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wms_get_async_cb_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wms_async_msg_cb_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: lib name=/usr/lib/libcriwds.so
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:qseecom listener services process entry PPID = 1
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Parent qseecom daemon process paused!! 
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:qseecom listener service threads starting!!! 
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Total listener services to start = 3
+Jan  1 00:00:40 sdxprairie user.err qseecomd: ERR:Listener: index = 0, hierarchy = 1
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_get_data_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_req_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_set_log_lv
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_get_ind_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_ind_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_cache_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_cache_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_cache_get_slot_id
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_is_data_cached
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_get_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_set_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_get_async_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_async_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_get_async_cb_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_wds_async_msg_cb_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: lib name=/usr/lib/libcriqcmap.so
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [94]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1526 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [95]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [115, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [50, 0, 65, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1538 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [96]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1539 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_init
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [97]
+Jan  1 00:00:40 sdxprairie user.err ceiled: [rilclient] Client. connection error
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1542 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [128] [1] [3] [98]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1544 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 625, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [99]
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_get_data_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_req_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_set_log_lv
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_get_ind_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_ind_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_cache_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_cache_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_cache_get_slot_id
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_is_data_cached
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_get_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_set_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_get_async_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_async_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_get_async_cb_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_qcmap_async_msg_cb_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: lib name=/usr/lib/libcrisar.so
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 625 total-blocks = 1 total-bytes = 625 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [118, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [53, 0, 65, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1548 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init dlopen(libdrmtime.so.1, RTLD_NOW) succeeds
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [100]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1558 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_get_data_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_req_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_set_log_lv
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_get_ind_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_ind_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_cache_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_cache_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_cache_get_slot_id
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_is_data_cached
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_get_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_set_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_get_async_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_async_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_get_async_cb_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_sar_async_msg_cb_handler
+Jan  1 00:00:40 sdxprairie user.err crid: unable to find ril_sar_async_msg_cb_handler symbol
+Jan  1 00:00:40 sdxprairie user.debug crid: lib name=/usr/lib/libcri_pdc.so
+Jan  1 00:00:40 sdxprairie user.err crid: unable to open /usr/lib/libcri_pdc.so: /usr/lib/libcri_pdc.so: cannot open shared object file: No such file or directory
+Jan  1 00:00:40 sdxprairie user.debug crid: lib name=/usr/lib/libcrits.so
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init::Init dlsym(g_FSHandle atime_start) succeeds
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEE Time Listener: atime_start
+Jan  1 00:00:40 sdxprairie user.info port_bridge: pcie_early_init=�
+Jan  1 00:00:40 sdxprairie user.info port_bridge: PCIe early init is false
+Jan  1 00:00:40 sdxprairie user.info port_bridge: not PCIeEarlyInit
+Jan  1 00:00:40 sdxprairie user.info port_bridge: AT over usb
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEECom_register_listener 11 sb_length = 0x5000
+Jan  1 00:00:40 sdxprairie user.info port_bridge: pcie_early_init=�
+Jan  1 00:00:40 sdxprairie user.info port_bridge: PCIe early init is false
+Jan  1 00:00:40 sdxprairie user.info port_bridge: not PCIeEarlyInit
+Jan  1 00:00:40 sdxprairie user.info port_bridge: AT over usb
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:registering fs service to QSEECom is done!
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:begin to create a thread!
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Creating a pthread in atime_start is done! return 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init atime_start ret = 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:time services: Started (Listener ID = 11)
+Jan  1 00:00:40 sdxprairie user.err qseecomd: ERR:Listener: index = 1, hierarchy = 1
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEE Time Listener: dispatch
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:before calling ioctl to read the next time_cmd
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [101]
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_get_data_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_req_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_set_log_lv
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_get_ind_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_ind_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_cache_init
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_cache_deinit
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_cache_get_slot_id
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_is_data_cached
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_get_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_set_cached_data
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_get_async_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_async_msg_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_get_async_cb_info
+Jan  1 00:00:40 sdxprairie user.debug crid: func name=ril_ts_async_msg_cb_handler
+Jan  1 00:00:40 sdxprairie user.debug crid: ril_dms_init Entry
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1559 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [102]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1573 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30928, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init dlopen(libdrmfs.so.1, RTLD_NOW) succeeds
+Jan  1 00:00:40 sdxprairie user.debug crid: Dms log lv = 3.
+Jan  1 00:00:40 sdxprairie user.info crid: rilserver_dms_ind_registration, qmi_error = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [103]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30928 total-blocks = 5 total-bytes = 30928 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [24182, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [46, 0, 19507, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1577 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.info crid: rilserver_nas_ind_registration, qmi_error = 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init::Init dlsym(g_FSHandle fs_start) succeeds
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEECom_register_listener 10 sb_length = 0x5000
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:registering fs service to QSEECom is done!
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [104]
+Jan  1 00:00:40 sdxprairie user.info crid: register system status change, err_code=0, resp.resp.err=0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [65, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [65, 0, 65, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1587 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.info crid: register indication, err_code=0, resp.resp.err=0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [105]
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:begin to create a thread!
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Creating a pthread in fs_start is done! return 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init fs_start ret = 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:file system services: Started (Listener ID = 10)
+Jan  1 00:00:40 sdxprairie user.err qseecomd: ERR:Listener: index = 2, hierarchy = 1
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init dlopen(libdrmfs.so.1, RTLD_NOW) succeeds
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init::Init dlsym(g_FSHandle gpfs_start) succeeds
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Getting paths from config file
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Data legacy path does not exist, append vendor path
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1600 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19828, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Persist legacy path exists, no need to append vendor path
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Number of whitelist_paths is 2
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server.c, 1465] WRQ stats : total-blocks = 1 : total-bytes = 1 : 1 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server.c, 1469] WRQ time stats : Total : [TX, RX] = [132, 0, 1055342]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server.c, 1473] WRQ time stats : Tx [Min, Max] = [58, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1507 tftp-server : INF :[tftp_server.c, 1477] WRQ time stats : Rx [Min, Max] = [4227, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19828 total-blocks = 3 total-bytes = 19828 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61780, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [44, 0, 61606, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1603 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [106]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Dispatch starts! 
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Restting user_req_buf and resp_buf
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:before calling ioctl to read the next cmd
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Adding /data/system/users/ to whitelist paths
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Adding /data/misc/qsee/ to whitelist paths
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Data path: /data/vendor/tzstorage/ and Persist path: /persist/data/
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEECom_register_listener 28672 sb_length = 0x7e000
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:registering gpfs service to QSEECom is done!
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:begin to create a thread!
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Creating a pthread in gpfs_start is done! return 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:Init gpfs_start ret = 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:gpfile system services: Started (Listener ID = 28672)
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:QSEECOM DAEMON RUNNING 
+Jan  1 00:00:40 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:GPDispatch starts! 
+Jan  1 00:00:40 sdxprairie user.debug qseecomd: DBG:before calling ioctl to read the next gp cmd
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [107]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [58, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [58, 0, 58, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1612 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [180] [1] [3] [108]
+Jan  1 00:00:40 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [52, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [52, 0, 52, 0]
+Jan  1 00:00:40 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1621 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30632, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30632 total-blocks = 4 total-bytes = 30632 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [32085, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [46, 0, 23313, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1623 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [109]
+Jan  1 00:00:41 sdxprairie user.debug ceioptimize: ril_ind_client_socket_init Entry
+Jan  1 00:00:41 sdxprairie user.err ceioptimize: [rilclient] Client. connection error
+Jan  1 00:00:41 sdxprairie user.debug ceioptimize: uim ind register not ready: 10
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [110]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1630 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [178] [1] [3] [111]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1636 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19580, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 1 fail ret: 0, result: 1. err:3. instance_id=8.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 3 fail ret: 0, result: 1. err:3. instance_id=8.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 13 fail ret: 0, result: 1. err:3. instance_id=8.
+Jan  1 00:00:41 sdxprairie user.info crid: read_mode device_mode:ecm
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 1 fail ret: 0, result: 1. err:3. instance_id=9.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 3 fail ret: 0, result: 1. err:3. instance_id=9.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 13 fail ret: 0, result: 1. err:3. instance_id=9.
+Jan  1 00:00:41 sdxprairie user.info crid: read_mode device_mode:ecm
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19580 total-blocks = 3 total-bytes = 19580 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [3669, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [46, 0, 3481, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1638 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [112]
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 1 fail ret: 0, result: 1. err:3. instance_id=10.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 3 fail ret: 0, result: 1. err:3. instance_id=10.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 13 fail ret: 0, result: 1. err:3. instance_id=10.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.info crid: read_mode device_mode:ecm
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 1 fail ret: 0, result: 1. err:3. instance_id=11.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 3 fail ret: 0, result: 1. err:3. instance_id=11.
+Jan  1 00:00:41 sdxprairie user.err crid: bind iface 13 fail ret: 0, result: 1. err:3. instance_id=11.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [113]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [40, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [40, 0, 40, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1643 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [114]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1646 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20476, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20476 total-blocks = 3 total-bytes = 20476 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [12390, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [47, 0, 12198, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1647 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.info crid: read_mode device_mode:ecm
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [115]
+Jan  1 00:00:41 sdxprairie user.info crid: ril_wds_set_throughput_event, qmi_error = 0
+Jan  1 00:00:41 sdxprairie user.err crid: init_status=0
+Jan  1 00:00:41 sdxprairie user.err crid: pthread_cond_wait waiting.... 
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.err crid: qmi_client_init_instance: 0, user_handle=0x13
+Jan  1 00:00:41 sdxprairie user.err crid: qmi_client_register_error_cb qmi_error=0
+Jan  1 00:00:41 sdxprairie user.err crid: signaling qcmap_clnt_init_cond
+Jan  1 00:00:41 sdxprairie user.err crid: waiting done.
+Jan  1 00:00:41 sdxprairie user.info crid: QCMAP Enabled
+Jan  1 00:00:41 sdxprairie user.info crid: Enable MobileAP OK!!!
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [116]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1650 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [165] [1] [3] [117]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1660 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20412, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20412 total-blocks = 3 total-bytes = 20412 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [364, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [47, 0, 185, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1667 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [162] [1] [3] [118]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1674 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1674 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1674 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1674 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1674 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1674 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [119]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1676 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1676 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1676 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1676 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1676 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1676 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [120]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1679 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1679 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1679 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1679 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1679 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1679 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [121]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1681 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1681 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1681 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1681 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1681 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:41 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1681 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [122]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [123]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1682 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [124]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [122, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [59, 0, 63, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1687 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [125]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [58, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [58, 0, 58, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1690 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [126]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [117, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [55, 0, 62, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1692 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [127]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:41 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1695 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [128]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1696 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [128] [1] [3] [129]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [162, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [162, 0, 162, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1698 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 625, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [130]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 625 total-blocks = 1 total-bytes = 625 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [127, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [60, 0, 67, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1699 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [131]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1703 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [132]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1704 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [133]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1707 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30928, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30928 total-blocks = 5 total-bytes = 30928 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [2877, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [43, 0, 1797, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1709 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [134]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [135]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1714 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [136]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1715 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19828, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19828 total-blocks = 3 total-bytes = 19828 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [14123, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [55, 0, 13933, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1716 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [137]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [138]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1717 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [180] [1] [3] [139]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [68, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [68, 0, 68, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1718 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30632, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [140]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30632 total-blocks = 4 total-bytes = 30632 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [12041, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 7216, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1719 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1723 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [141]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [178] [1] [3] [142]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1724 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19580, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19580 total-blocks = 3 total-bytes = 19580 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [4723, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [53, 0, 4525, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1726 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [143]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [144]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1729 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [145]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1731 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20476, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20476 total-blocks = 3 total-bytes = 20476 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [4796, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [146]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [51, 0, 4625, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1732 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [147]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1734 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [165] [1] [3] [148]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1735 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20412, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20412 total-blocks = 3 total-bytes = 20412 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [3367, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [49, 0, 3200, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [162] [1] [3] [149]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1739 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1740 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1740 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1740 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1740 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1740 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1740 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [150]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1742 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1742 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1742 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1742 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1742 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1742 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [151]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1744 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1744 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1744 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1744 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1744 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1744 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [152]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1745 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1745 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1745 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1745 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1745 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:42 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1745 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [153]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [154]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1746 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [155]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [136, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 74, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1748 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [156]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1750 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [157]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [128, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1751 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [158]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1754 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [159]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1756 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [128] [1] [3] [160]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [65, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [65, 0, 65, 0]
+Jan  1 00:00:42 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1759 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 625, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [161]
+Jan  1 00:00:43 sdxprairie user.debug ceioptimize: ril_ind_client_socket_init Entry
+Jan  1 00:00:43 sdxprairie user.debug ceioptimize: uim ind callback register ready: 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 625 total-blocks = 1 total-bytes = 625 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [123, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 62, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1760 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt] : [/system/rfs/mdm/mps
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 625, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [162]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [62, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [62, 0, 62, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1761 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [163]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [59, 0, 59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1763 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie daemon.notice rpc.statd[1700]: Version 3.1.1 starting
+Jan  1 00:00:43 sdxprairie daemon.warn rpc.statd[1700]: Flags: No-Daemon TI-RPC 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30928, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [164]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1767 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30928, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30928 total-blocks = 5 total-bytes = 30928 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [19326, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [52, 0, 14090, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1770 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [165]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [158] [1] [3] [166]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [59, 0, 59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1781 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19828, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [167]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [59, 0, 59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1782 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19828, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.debug ceioptimize: uim card status: 0, 0, 1
+Jan  1 00:00:43 sdxprairie user.debug ceioptimize: uim card state: 0, pin state: 0
+Jan  1 00:00:43 sdxprairie user.debug ceioptimize: g_cri_uim_ready_cond ...
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [168]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19828 total-blocks = 3 total-bytes = 19828 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [4679, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [50, 0, 4502, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1787 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [169]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [65, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [65, 0, 65, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1788 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 30632, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [180] [1] [3] [170]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [59, 0, 59, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1794 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 30632, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 30632 total-blocks = 4 total-bytes = 30632 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [4759, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [53, 0, 3983, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1795 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [171]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [172]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [67, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [67, 0, 67, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1798 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.debug datasync: D/DS: main(509): datasync main start.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 19580, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [178] [1] [3] [173]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1799 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/STANDALONE/LE
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 19580, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [174]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 19580 total-blocks = 3 total-bytes = 19580 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [5239, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [54, 0, 5048, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1801 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [156] [1] [3] [175]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [61, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [61, 0, 61, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1802 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20476, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [167] [1] [3] [176]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [63, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [63, 0, 63, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1803 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/DSS
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20476, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20476 total-blocks = 3 total-bytes = 20476 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [1003, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [53, 0, 816, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1806 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.debug datasync: D/DS: ApnCheck(221): No apn info in xml. Do nothing.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [177]
+Jan  1 00:00:43 sdxprairie user.debug datasync: D/DS: AirplaneModeCheck(480): Operating Mode: 0
+Jan  1 00:00:43 sdxprairie user.debug datasync: D/DS: AirplaneModeCheck(487): No find airplane_mode tag in xml.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [154] [1] [3] [178]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [65, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [65, 0, 65, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1809 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 20412, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.info thermal-engine: Thermal daemon started
+Jan  1 00:00:43 sdxprairie user.info thermal-engine: cei_project_id=RXM-G1
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [165] [1] [3] [179]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [64, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [64, 0, 64, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1810 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/SDX55/FUSION/WD/SS/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 20412, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 20412 total-blocks = 3 total-bytes = 20412 timedout-pkts = 0, wrong-pkts = 
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [162] [1] [3] [180]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [3862, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [47, 0, 3696, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1811 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1813 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1813 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1813 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1813 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1813 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1813 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [160] [1] [3] [181]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1816 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1816 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1816 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1816 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1816 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1816 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [171] [1] [3] [182]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1817 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1817 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1817 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1817 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1817 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1817 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [169] [1] [3] [183]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1819 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Chitwan/STANDALONE/
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1819 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1819 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1819 tftp-server : ERR :[tftp_os_la.c, 70] open failed: [2] [No such file or directory]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1819 tftp-server : ERR :[tftp_server.c, 1698] open failed : [-2] [Unknown error -2]
+Jan  1 00:00:43 sdxprairie user.err tftp_server[268]: ERR:pid=268 tid=1819 tftp-server : ERR :[tftp_protocol.c, 1229] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [119] [1] [3] [184]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 32, 10, 0, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=268 tftp-server : INF :[tftp_server.c, 659] rcvd request [3] [127] [1] [3] [185]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_protocol.c, 742] Recd END OF TRANSFER pkt. Code = 9, Msg = End of Transfer
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 0 total-blocks = 0 total-bytes = 0 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [60, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [60, 0, 60, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1820 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server.c, 1202] OACK options : [7680, 1000, 0, 10, 32, 0, 0, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_os_la.c, 63] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server.c, 1310] RRQ stats : sent_size = 32 total-blocks = 1 total-bytes = 32 timedout-pkts = 0, wrong-pkts = 0
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server.c, 1314] RRQ time stats : Total : [TX, RX] = [113, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server.c, 1320] RRQ time stats : Tx/Rx [Min, Max] = [47, 0, 66, 0]
+Jan  1 00:00:43 sdxprairie user.notice tftp_server[268]: INFO:pid=268 tid=1821 tftp-server : INF :[tftp_server.c, 1336] RRQ was successfully processed.
+Jan  1 00:00:43 sdxprairie user.err thermal-engine: Unknown target identified with soc id 357
+Jan  1 00:00:43 sdxprairie user.info thermal-engine: No target config file, falling back to '/etc/thermal-engine.conf'
+Jan  1 00:00:43 sdxprairie daemon.warn rpc.statd[1700]: Failed to read /var/lib/nfs/statd/state: Success
+Jan  1 00:00:43 sdxprairie daemon.notice rpc.statd[1700]: Initializing NSM state
+Jan  1 00:00:43 sdxprairie daemon.err rpc.statd[1700]: Failed to create /var/lib/nfs/statd/state.new: Read-only file system
+Jan  1 00:00:44 sdxprairie user.info thermal-engine: devices_manager_init: Init
+Jan  1 00:00:44 sdxprairie user.info thermal-engine: Unable to change directory to /sys/class/kgsl
+Jan  1 00:00:44 sdxprairie user.err thermal-engine: get_num_gpus() failed, default to MAX_GPUs 4
+Jan  1 00:00:44 sdxprairie user.info thermal-engine: Number of gpus :4
+Jan  1 00:00:44 sdxprairie user.info thermal-engine: Number of cpus :1
+Jan  1 00:00:44 sdxprairie user.info thermal-engine: update_cpu_topology: Cluster info node not found/sys/module/msm_thermal/cluster_info
+Jan  1 00:00:44 sdxprairie user.err thermal-engine: read_int_list_from_file: Read error -2.
+Jan  1 00:00:44 sdxprairie user.err thermal-engine: tmd_add_cpufreq_dev_data: Invalid or no boost freqs
+Jan  1 00:00:45 sdxprairie user.info thermal-engine: tmd_init_cluster_devs: No clusters found
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: read_int_list_from_file: Read error -2.
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: Could not find thermal-devfreq-0 cooling device
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: tmd_init_gpu_devs: Invalid number for freqs
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: devices_init: Init GPU TMD failed -14
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: Could not find npu cooling device
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: tmd_init_npu_device: Invalid NPU level:-1.
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: devices_init: Init NPU TMD failed -12
+Jan  1 00:00:45 sdxprairie user.info thermal-engine: vdd_rstr_init: Could not read /sys/module/msm_thermal/vdd_restriction/enabled
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: Error reading /sys/class/leds/lcd-backlight/max_brightness
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: open/sys/class/power_supply/battery/system_temp_level failed2
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: Unable to init battery charging mitigation to 0
+Jan  1 00:00:45 sdxprairie user.info thermal-engine: sensors_manager_init: Init
+Jan  1 00:00:45 sdxprairie user.err thermal-engine: socket creation success
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: Unable to change to /sys/devices/soc/
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: bcl_setup: Unexpected node error
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: add_tgt_sensor: bcl sensor setup failed failed.
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: add_tgt_sensors_set: Error adding bcl
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: sensors_init: Error adding BCL TS
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: thermal_monitor_init_data: ERROR Uknown device
+Jan  1 00:00:46 sdxprairie user.info thermal-engine: Loading configuration file /etc/thermal-engine.conf
+Jan  1 00:00:46 sdxprairie user.info thermal-engine: Parsing section global
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: Failed to setup at least one sensor for monitoring
+Jan  1 00:00:46 sdxprairie user.err thermal-engine: open/sys/module/msm_thermal/parameters/enabled failed2
+Jan  1 00:00:46 sdxprairie user.err location_hal_daemon: QCCI qmi_cci_xport_recv: txn not found. svc_id: 16
+Jan  1 00:00:46 sdxprairie user.err location_hal_daemon: QCCI qmi_cci_xport_recv: txn not found. svc_id: 16
+Jan  1 00:01:56 sdxprairie auth.info sshd[2310]: /etc/ssh/sshd_config_readonly line 93: Deprecated option UsePrivilegeSeparation
+Jan  1 00:01:56 sdxprairie auth.info sshd[2310]: Connection closed by 192.168.225.30 port 57778 [preauth]
+Jan  1 00:03:22 sdxprairie auth.info sshd[2535]: /etc/ssh/sshd_config_readonly line 93: Deprecated option UsePrivilegeSeparation
+Jan  1 00:03:27 sdxprairie authpriv.err sshd[2535]: PAM unable to dlopen(/lib/security/pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Jan  1 00:03:27 sdxprairie authpriv.err sshd[2535]: PAM adding faulty module: /lib/security/pam_systemd.so
+Jan  1 00:03:43 sdxprairie authpriv.notice unix_chkpwd[2578]: password check failed for user (root)
+Jan  1 00:03:43 sdxprairie authpriv.notice sshd[2535]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.225.30  user=root
+Jan  1 00:03:45 sdxprairie auth.info sshd[2535]: Failed password for root from 192.168.225.30 port 43084 ssh2
+Jan  1 00:04:05 sdxprairie authpriv.notice unix_chkpwd[2630]: password check failed for user (root)
+Jan  1 00:04:06 sdxprairie auth.info sshd[2535]: Failed password for root from 192.168.225.30 port 43084 ssh2
+Jan  1 00:04:15 sdxprairie authpriv.debug unix_chkpwd[2651]: account root has password changed in future
+Jan  1 00:04:15 sdxprairie auth.info sshd[2535]: Accepted password for root from 192.168.225.30 port 43084 ssh2
+Jan  1 00:04:15 sdxprairie authpriv.info sshd[2535]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  1 00:04:15 sdxprairie authpriv.notice sshd[2535]: pam_selinux(sshd:session): pam: default-context=root:sysadm_r:sysadm_t:s0 selected-context=root:sysadm_r:sysadm_t:s0 success 1
+Jan  1 00:04:15 sdxprairie auth.info sshd[2652]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Jan  1 00:04:15 sdxprairie auth.info sshd[2652]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Jan  1 00:04:20 sdxprairie user.debug ceiled: ril_ind_client_socket_init Entry
+Jan  1 00:04:25 sdxprairie user.debug ceiled: Henry(Led)=> Unknown status: (1)
+Jan  1 00:17:14 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3801, cb=0x4b9621
+Jan  1 00:17:14 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3801
+Jan  1 00:17:14 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SIG_INFO
+Jan  1 00:17:16 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3801, cb=0x4b9621
+Jan  1 00:17:16 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3801
+Jan  1 00:17:16 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SIG_INFO
+Jan  1 00:22:10 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:10 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:22:10 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:10 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:22:25 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:25 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:22:25 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:25 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:22:30 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:30 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:22:31 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:22:31 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:24:30 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:24:30 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:29:30 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:29:30 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:34:30 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:34:30 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:39:30 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:39:30 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:39:49 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:39:49 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:40:05 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:40:05 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:40:05 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:40:05 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:40:10 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:40:10 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:40:10 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:40:10 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:40:45 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:40:45 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3804, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3804
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3805, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3805
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3801, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3801
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SIG_INFO
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3804, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3804
+Jan  1 00:40:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:40:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:44:57 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:44:57 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:45:13 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:45:13 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:45:13 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:45:13 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:45:14 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:45:14 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:45:14 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:45:14 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:45:40 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:45:40 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:46:09 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:46:09 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:46:47 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:46:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:46:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:46:47 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered
+Jan  1 00:48:03 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:48:03 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3804, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3804
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3805, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3805
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3801, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3801
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SIG_INFO
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3802, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3802
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func case CRI_IND_NAS_SERVING_SYS_INFO
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func Network Registration State: Not Registered Searching
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3804, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3804
+Jan  1 00:48:04 sdxprairie user.debug ceiled: nas_ind_monitor ril_msg_id = 3807, cb=0x4b9621
+Jan  1 00:48:04 sdxprairie user.debug ceiled: Henry(Led)=> in cli_nas_ind_cb_func msg_id=3807
+
+
+
+
