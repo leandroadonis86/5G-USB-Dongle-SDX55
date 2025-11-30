@@ -1,0 +1,896 @@
+/ # dmesg
+[    3.498840] systemd[164]: proc-fs-nfsd.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.503649] systemd[165]: firmware-mount.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.504976] systemd[166]: chgrp-diag.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.631206] systemd[167]: systemd-sysctl.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.661613] systemd[168]: systemd-random-seed.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.681332] systemd[171]: init_debuggerd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.722865] systemd[173]: systemrw.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.731292] systemd[175]: oem-mount.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.780894] UBIFS (ubi0:3): background thread "ubifs_bgt0_3" started, PID 176
+[    3.784896] systemd[177]: firmware-mount.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    3.856223] UBIFS (ubi0:3): recovery needed
+[    3.961042] UBIFS (ubi0:3): recovery completed
+[    3.961157] UBIFS (ubi0:3): UBIFS: mounted UBI device 0, volume 3, name "systemrw"
+[    3.961165] UBIFS (ubi0:3): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[    3.961172] UBIFS (ubi0:3): FS size: 4063232 bytes (3 MiB, 16 LEBs), journal size 1777665 bytes (1 MiB, 5 LEBs)
+[    3.961178] UBIFS (ubi0:3): reserved for root: 191915 bytes (187 KiB)
+[    3.961186] UBIFS (ubi0:3): media format: w5/r0 (latest is w5/r0), UUID E9C40583-585B-44F8-886D-33CE8DAFA766, small LPT model
+[    4.106211] ubi2: attaching mtd24
+[    4.145324] ubi2: scanning is finished
+[    4.151180] ubi2: attached mtd24 (name "oem", size 43 MiB)
+[    4.151193] ubi2: PEB size: 262144 bytes (256 KiB), LEB size: 253952 bytes
+[    4.151198] ubi2: min./max. I/O unit sizes: 4096/4096, sub-page size 4096
+[    4.151204] ubi2: VID header offset: 4096 (aligned 4096), data offset: 8192
+[    4.151209] ubi2: good PEBs: 172, bad PEBs: 0, corrupted PEBs: 0
+[    4.151214] ubi2: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    4.151220] ubi2: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 1502450008
+[    4.151238] ubi2: available PEBs: 0, total reserved PEBs: 172, PEBs reserved for bad PEB handling: 40
+[    4.151266] ubi1: attaching mtd17
+[    4.210122] ubi2: background thread "ubi_bgt2d" started, PID 193
+[    4.276072] ubi1: scanning is finished
+[    4.280164] UBIFS (ubi2:0): background thread "ubifs_bgt2_0" started, PID 196
+[    4.301485] ubi1: attached mtd17 (name "modem", size 107 MiB)
+[    4.301498] ubi1: PEB size: 262144 bytes (256 KiB), LEB size: 253952 bytes
+[    4.301504] ubi1: min./max. I/O unit sizes: 4096/4096, sub-page size 4096
+[    4.301509] ubi1: VID header offset: 4096 (aligned 4096), data offset: 8192
+[    4.301515] ubi1: good PEBs: 429, bad PEBs: 0, corrupted PEBs: 0
+[    4.301520] ubi1: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    4.301526] ubi1: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 533622671
+[    4.301546] ubi1: available PEBs: 0, total reserved PEBs: 429, PEBs reserved for bad PEB handling: 40
+[    4.310154] ubi1: background thread "ubi_bgt1d" started, PID 197
+[    4.349724] UBIFS (ubi2:0): recovery needed
+[    4.490707] UBIFS (ubi1:0): UBIFS: mounted UBI device 1, volume 0, name "modem", R/O mode
+[    4.490724] UBIFS (ubi1:0): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[    4.490732] UBIFS (ubi1:0): FS size: 95232000 bytes (90 MiB, 375 LEBs), journal size 9404416 bytes (8 MiB, 38 LEBs)
+[    4.490738] UBIFS (ubi1:0): reserved for root: 0 bytes (0 KiB)
+[    4.490746] UBIFS (ubi1:0): media format: w4/r0 (latest is w5/r0), UUID 6229BF47-5BB8-4E82-A576-2B300AC3592B, small LPT model
+[    4.543623] UBIFS (ubi2:0): recovery completed
+[    4.543747] UBIFS (ubi2:0): UBIFS: mounted UBI device 2, volume 0, name "oemfs"
+[    4.543756] UBIFS (ubi2:0): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[    4.543764] UBIFS (ubi2:0): FS size: 29966336 bytes (28 MiB, 118 LEBs), journal size 9404416 bytes (8 MiB, 38 LEBs)
+[    4.543769] UBIFS (ubi2:0): reserved for root: 0 bytes (0 KiB)
+[    4.543777] UBIFS (ubi2:0): media format: w4/r0 (latest is w5/r0), UUID D47E5330-72F0-466A-AF64-5C4C225CCA3F, small LPT model
+[    4.563668] audit: type=1400 audit(1733804858.529:3): avc:  denied  { mounton } for  pid=202 comm="mount" path="/bin" dev="ubifs" ino=7254 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:bin_t:s0 tclass=dir permissive=1
+[    4.566913] audit: type=1400 audit(1733804858.529:4): avc:  denied  { remove_name } for  pid=202 comm="mount" name="work" dev="ubifs" ino=309 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    4.567000] audit: type=1400 audit(1733804858.529:5): avc:  denied  { rmdir } for  pid=202 comm="mount" name="work" dev="ubifs" ino=309 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    4.567202] audit: type=1400 audit(1733804858.529:6): avc:  denied  { add_name } for  pid=202 comm="mount" name="work" scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    4.567296] audit: type=1400 audit(1733804858.529:7): avc:  denied  { create } for  pid=202 comm="mount" name="work" scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    4.577716] overlayfs: workdir is in-use by another mount, accessing files from both mounts will result in undefined behavior.
+[    4.587071] audit: type=1400 audit(1733804858.549:8): avc:  denied  { mounton } for  pid=205 comm="mount" path="/lib" dev="ubifs" ino=65 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:lib_t:s0 tclass=dir permissive=1
+[    4.588295] overlayfs: workdir is in-use by another mount, accessing files from both mounts will result in undefined behavior.
+[    4.613345] audit: type=1400 audit(1733804858.579:9): avc:  denied  { read } for  pid=200 comm="modprobe" name="modules" dev="ubifs" ino=1232 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:modules_object_t:s0 tclass=lnk_file permissive=1
+[    4.646238] systemd-sysctl[167]: Couldn't write 'fq_codel' to 'net/core/default_qdisc', ignoring: No such file or directory
+[    4.664033] systemd[207]: oeminit.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.671601] systemd[209]: cei_customization.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.678222] audit: type=1400 audit(1733804858.639:10): avc:  denied  { execute } for  pid=207 comm="(_init.sh)" name="sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[    4.691424] systemd[210]: irsc_util.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.711272] systemd[213]: netmgrd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.735613] systemd[215]: sys-kernel-debug.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.772287] systemd[208]: start_stop_ipa_fws.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.774741] systemd[212]: qrtr_ns.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.780928] systemd[216]: tmp.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.801319] systemd[219]: systemd-tmpfiles-setup-dev.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    4.811335] systemd[220]: sys-kernel-config.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.012872] systemd[229]: start_stop_ipa_fws.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.123472] systemd[232]: start_stop_ipa_fws.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.128016] systemd[233]: start_stop_ipa_fws.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.163363] systemd[235]: start_stop_ipa_fws.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.200565] IPA is loading with non MHI configuration
+[    5.203243] ipa ipa3_uc_state_check:377 uC interface not initialized
+[    5.203296] ipa ipa_smmu_ap_cb_probe:8006 AP Geometry start = 0 size= f0000000
+[    5.203305] IPA smmu_info.s1_bypass_arr[AP]=0 smmu_info.fast_map=1
+[    5.210426] IPA smmu_info.s1_bypass_arr[WLAN]=0 smmu_info.fast_map=0
+[    5.210658] IPA smmu_info.s1_bypass_arr[UC]=0 smmu_info.fast_map=0
+[    5.238223] subsys-pil-tz soc:qcom,ipa_fws: ipa_fws: loading from 0x8c460000 to 0x8c46b000
+[    5.280547] subsys-pil-tz soc:qcom,ipa_fws: ipa_fws: Brought out of reset
+[    5.280929] IPA FW loaded successfully
+[    5.290245] ipa ipa3_uc_state_check:377 uC interface not initialized
+[    5.300356] gsi soc:qcom,msm_gsi: gsi_register_device:1164 GSI irq is wake enabled 29
+[    5.320483] IPA driver initialization was successful.
+[    5.320510] rmnet_ipa3 started initialization
+[    5.320519] IPA SSR support = True
+[    5.320525] IPA is_platform_type_msm = False
+[    5.320528] IPA SG support = False
+[    5.320532] IPA Napi Enable = False
+[    5.320538] using default for wan-rx-desc-size = 256
+[    5.321509] ipa-wan ipa3_wwan_probe:2853 rmnet_ipa completed initialization
+[    5.345988] systemd[249]: systemd-udevd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.350160] kauditd_printk_skb: 7 callbacks suppressed
+[    5.350167] audit: type=1400 audit(1733804859.309:18): avc:  denied  { execute } for  pid=249 comm="(md-udevd)" name="systemd-udevd" dev="ubifs" ino=12636 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:udev_exec_t:s0 tclass=file permissive=1
+[    5.354043] systemd[250]: data.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.388684] systemd[251]: persist.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.402331] systemd[252]: var-volatile.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.432064] UBIFS (ubi0:4): background thread "ubifs_bgt0_4" started, PID 254
+[    5.432139] UBIFS (ubi0:1): background thread "ubifs_bgt0_1" started, PID 253
+[    5.609122] UBIFS (ubi0:4): recovery needed
+[    5.611527] UBIFS (ubi0:1): recovery needed
+[    5.655273] systemd-udevd[249]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+[    5.731288] systemd[255]: cei_customization.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.735867] systemd[256]: cei_usb_ippt_auto_config.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.751351] systemd[257]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    5.793523] [CEI-CUST] Starting to customization service ...
+[    5.803556] audit: type=1400 audit(1733804859.769:19): avc:  denied  { getattr } for  pid=255 comm="cei_customizati" path="/systemrw/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[    5.835561] systemd-udevd[249]: Specified group 'render' unknown
+[    5.836268] systemd-udevd[249]: Specified group 'kvm' unknown
+[    5.876563] audit: type=1400 audit(1733804859.839:20): avc:  denied  { getattr } for  pid=258 comm="rm" path="/systemrw/data/dhcp_hosts" dev="ubifs" ino=191 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[    5.889046] UBIFS (ubi0:4): recovery completed
+[    5.889166] UBIFS (ubi0:4): UBIFS: mounted UBI device 0, volume 4, name "persist"
+[    5.889175] UBIFS (ubi0:4): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[    5.889183] UBIFS (ubi0:4): FS size: 4063232 bytes (3 MiB, 16 LEBs), journal size 1777665 bytes (1 MiB, 5 LEBs)
+[    5.889189] UBIFS (ubi0:4): reserved for root: 191915 bytes (187 KiB)
+[    5.889197] UBIFS (ubi0:4): media format: w5/r0 (latest is w5/r0), UUID 98A82FFC-80FF-4A49-AD77-A724EA63C46B, small LPT model
+[    5.890657] audit: type=1400 audit(1733804859.859:21): avc:  denied  { write } for  pid=258 comm="rm" name="data" dev="ubifs" ino=65 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=dir permissive=1
+[    5.890754] audit: type=1400 audit(1733804859.859:22): avc:  denied  { remove_name } for  pid=258 comm="rm" name="dhcp_hosts" dev="ubifs" ino=191 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=dir permissive=1
+[    5.890833] audit: type=1400 audit(1733804859.859:23): avc:  denied  { unlink } for  pid=258 comm="rm" name="dhcp_hosts" dev="ubifs" ino=191 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[    5.891437] [CEI-CUST] Finished to customization service ...
+[    5.921344] systemd[259]: label-persist.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.058258] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:5: RUN{builtin}: 'kmod load $env{MODALIAS}' unknown
+[    6.058305] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:6: RUN{builtin}: 'kmod load tifm_sd' unknown
+[    6.058330] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:7: RUN{builtin}: 'kmod load tifm_ms' unknown
+[    6.058352] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:8: RUN{builtin}: 'kmod load ms_block mspro_block' unknown
+[    6.058373] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:9: RUN{builtin}: 'kmod load i2o_block' unknown
+[    6.058398] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:10: RUN{builtin}: 'kmod load ppdev' unknown
+[    6.058457] systemd-udevd[249]: Invalid rule /lib/udev/rules.d/80-drivers.rules:11: RUN{builtin}: 'kmod load sm_ftl' unknown
+[    6.070206] UBIFS (ubi0:1): recovery completed
+[    6.070369] UBIFS (ubi0:1): UBIFS: mounted UBI device 0, volume 1, name "usrfs"
+[    6.070380] UBIFS (ubi0:1): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[    6.070388] UBIFS (ubi0:1): FS size: 110469120 bytes (105 MiB, 435 LEBs), journal size 9404416 bytes (8 MiB, 38 LEBs)
+[    6.070394] UBIFS (ubi0:1): reserved for root: 0 bytes (0 KiB)
+[    6.070402] UBIFS (ubi0:1): media format: w4/r0 (latest is w5/r0), UUID 8A092AE6-2C6D-45D1-B050-906ED3172065, small LPT model
+[    6.112504] systemd[260]: time_serviced.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.121210] systemd[262]: label-data.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.122561] systemd[263]: cei_modem_cust.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.154168] [CEI-CUST-MODEM] Starting to modem customization service ...
+[    6.159690] audit: type=1400 audit(1733804860.119:24): avc:  denied  { search } for  pid=263 comm="cei_modem_cust." name="rfs" dev="ubifs" ino=82 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:rfs_persist_t:s0 tclass=dir permissive=1
+[    6.173506] systemd[264]: time_serviced.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.196252] audit: type=1400 audit(1733804860.159:25): avc:  denied  { search } for  pid=263 comm="cei_modem_cust." name="shared" dev="ubifs" ino=89 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:firmware_persist_t:s0 tclass=dir permissive=1
+[    6.202049] audit: type=1400 audit(1733804860.169:26): avc:  denied  { getattr } for  pid=263 comm="cei_modem_cust." path="/data/persist/rfs/shared/oem" dev="ubifs" ino=96 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:firmware_persist_t:s0 tclass=lnk_file permissive=1
+[    6.215715] [CEI-CUST-MODEM] oem symbol link already exist
+[    6.220961] systemd[266]: time_serviced.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.230362] audit: type=1400 audit(1733804860.199:27): avc:  denied  { execute } for  pid=266 comm="(e_daemon)" name="time_daemon" dev="ubifs" ino=12876 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:time_daemon_exec_t:s0 tclass=file permissive=1
+[    6.279816] systemd[268]: tftp_server.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.301280] systemd[269]: pcie.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.348209] systemd[278]: systemd-tmpfiles-setup.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.551806] [CEI-CUST-MODEM] Finished modem customization service ...
+[    6.641343] systemd[299]: pcie.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.781497] systemd[305]: cei_usb_ippt_auto_config.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    6.825290] systemd-tmpfiles[278]: symlink(/etc/machine-id, /var/lib/dbus/machine-id) failed: Read-only file system
+[    6.826508] systemd-tmpfiles[278]: symlink(../usr/share/zoneinfo/UTC, /etc/localtime) failed: Read-only file system
+[    6.865922] systemd-tmpfiles[278]: /srv does not exist and cannot be created as the file system is read-only.
+[    7.003435] [CEI dongle] START
+[    7.005645] [CEI dongle] custid empty
+[    7.094880] systemd[307]: earlyinit-logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.114834] systemd[308]: ipacm.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.131597] systemd[309]: sshd.socket: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.166324] systemd[310]: dbus.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.291342] systemd[311]: earlyinit-logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.332754] systemd[1]: Listening on sshd.socket.
+[    7.344376] systemd[312]: ipacm.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.349466] systemd[313]: earlyinit-logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.528294] systemd[1]: Started Logd logging Service.
+[    7.533005] systemd[320]: ipacm.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.541845] systemd[1]: Started IPACM Service.
+[    7.545040] systemd[1]: Started Monitor /dev/socket path to start logd.
+[    7.545241] systemd[1]: Reached target Paths.
+[    7.545487] logd.auditd: start
+[    7.546296] logd.klogd: 7546244684
+[    7.554526] systemd[321]: ipacm.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    7.653576] ipa ipa3_uc_state_check:382 uC is not loaded
+[    7.654276] ipa ipa3_uc_state_check:382 uC is not loaded
+[    7.654820] ipa ipa3_uc_state_check:382 uC is not loaded
+[    7.655355] ipa ipa3_uc_state_check:382 uC is not loaded
+[    7.655886] ipa ipa3_uc_state_check:382 uC is not loaded
+[    7.778740] type=1400 audit(10.019:45): avc: denied { execute } for pid=321 comm="(ipacm)" name="ipacm" dev="ubifs" ino=12758 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ipacm_exec_t:s0 tclass=file permissive=1
+[    7.779330] type=1400 audit(10.029:46): avc: denied { getattr } for pid=321 comm="ipacm" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:ipacm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    8.024237] [CEI dongle] custid:19
+[    8.025458] [CEI dongle] OK custid
+[    8.025673] [CEI dongle] gsiFunc empty
+[    8.769449] systemd[337]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.800968] systemd[340]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.830609] systemd[343]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.859300] systemd[346]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.888459] systemd[349]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.918913] systemd[352]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.946667] systemd[1]: Started QCMAP_copybind service.
+[    8.951620] systemd[355]: QCMAP_copybind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.952455] systemd[1]: Starting usb Service...
+[    8.956115] systemd[356]: usb.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.971042] systemd[1]: Started QCMAP_Bootup service.
+[    8.978609] systemd[357]: QCMAP_Bootup.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    8.982073] type=1400 audit(11.449:47): avc: denied { execute } for pid=357 comm="(P_Bootup)" name="QCMAP_Bootup" dev="ubifs" ino=12692 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qcmap_cm_exec_t:s0 tclass=file permissive=1
+[    9.015411] systemd[1]: Started SSREQ server Service.
+[    9.020373] QCMAP_Bootup:Start Main
+[    9.099120] systemd[359]: ssreq-server.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    9.121110] QCMAP_Bootup:Start DHCP server
+[    9.213746] dnsmasq --conf-file=/systemrw/data/dnsmasq.conf --dhcp-leasefile=/var/run/data/dnsmasq.leases --addn-hosts=/systemrw/data/hosts --pid-file=/var/run/data/dnsmasq.pid -i bridge0 -I lo -z --dhcp-range=bridge0,192.168.225.20,192.168.225.60,255.255.255.0,43200 --dhcp-hostsfile=/etc/data/dhcp_hosts --dhcp-option-force=6,192.168.225.1 --dhcp-script=/bin/dnsmasq_script.sh
+[    9.224417] QCMAP_Bootup:DHCP server started
+[    9.228266] QCMAP_Bootup:Init Complete
+[    9.239991] type=1400 audit(11.449:48): avc: denied { getattr } for pid=357 comm="QCMAP_Bootup" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[    9.260407] type=1400 audit(11.509:49): avc: denied { getattr } for pid=357 comm="QCMAP_Bootup" path="/systemrw/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[    9.260553] type=1400 audit(11.509:50): avc: denied { read } for pid=357 comm="QCMAP_Bootup" name="mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[    9.260646] type=1400 audit(11.509:51): avc: denied { open } for pid=357 comm="QCMAP_Bootup" path="/systemrw/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[    9.260727] type=1400 audit(11.569:52): avc: denied { getattr } for pid=369 comm="sh" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[    9.278966] [CEI dongle] gsiFunc empty
+[    9.318575] systemd[389]: usb.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    9.353602] systemd[392]: usb.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    9.423161] systemd[400]: usb.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[    9.533058] Mass Storage Function, version: 2009/09/11
+[    9.533082] LUN: removable file: (no medium)
+[    9.536525] Mass Storage Function, version: 2009/09/11
+[    9.536548] LUN: removable file: (no medium)
+[    9.543409] file system registered
+[    9.563349] f_cdev_alloc: port_name:at_usb0 (00000000) portno:(0)
+[    9.575730] f_cdev_alloc: port_name:at_usb1 (00000000) portno:(1)
+[    9.851860] gsi_set_inst_name: failed to find prot id for rmnet.v2x instance
+[    9.958658] Switching to composition number 0x9063
+[    9.986425] usb.service initialized successfully
+[    9.988664] systemd[1]: Started usb Service.
+[    9.999230] systemd[506]: QCMAP_ConnectionManagerd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   10.008470] systemd[508]: adbd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   10.034678] Launch adb is starting adbd... 
+[   10.137366] Started adbd. 
+[   10.145969] ipa ipa3_uc_state_check:382 uC is not loaded
+[   10.146595] ecm_ipa@ecm_ipa_init@356@ctx:9063: ECM_IPA was initialized successfully
+[   10.146668] msm-dwc3 a600000.ssusb: ep [gsi-epin,29] already configured as msm endpoint
+[   10.146677] msm-dwc3 a600000.ssusb: ep [gsi-epout,30] already configured as msm endpoint
+[   10.152093] RNDIS_IPA NetDev was initialized
+[   10.152135] msm-dwc3 a600000.ssusb: ep [gsi-epin,29] already configured as msm endpoint
+[   10.152151] msm-dwc3 a600000.ssusb: ep [gsi-epout,30] already configured as msm endpoint
+[   10.157701] android_work: did not send uevent (0 0 00000000)
+[   10.167881] msm-dwc3 a600000.ssusb: Could not get usb psy
+[   10.293379] \n add rndis to bridge start
+[   10.307931] msm-dwc3 a600000.ssusb: Could not get usb psy
+[   10.307950] android_work: did not send uevent (0 0 00000000)
+[   10.313980] RNDIS_IPA NetDev was opened
+[   10.331302] [CEI dongle] gsiFunc empty
+[   10.332563] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+[   10.355668] bridge0: port 1(rndis0) entered blocking state
+[   10.355685] bridge0: port 1(rndis0) entered disabled state
+[   10.356541] read descriptors
+[   10.356632] read strings
+[   10.359580] device rndis0 entered promiscuous mode
+[   10.364619] \n add rndis to bridge stop
+[   10.438423] android_work: sent uevent USB_STATE=CONNECTED
+[   10.471366] configfs-gadget gadget: super-speed-plus config #1: c
+[   10.471451] msm-dwc3 a600000.ssusb: Could not get usb psy
+[   10.471500] android_work: sent uevent USB_STATE=CONFIGURED
+[   10.502571] ipa ipa3_uc_state_check:382 uC is not loaded
+[   10.503168] ipa ipa3_uc_state_check:382 uC is not loaded
+[   10.504302] ipa ipa3_uc_state_check:382 uC is not loaded
+[   10.504318] ipa ipa3_uc_debug_stats_alloc:1095 fail to alloc offload stats
+[   10.504707] ipa ipa3_uc_state_check:382 uC is not loaded
+[   10.504719] ipa ipa3_uc_debug_stats_alloc:1095 fail to alloc offload stats
+[   10.507998] ecm_ipa@ecm_ipa_connect@538@ctx:kworker/u2:8: ECM_IPA was connected successfully
+[   11.343322] [CEI dongle] device_mode:ecm
+[   11.360756] [CEI dongle] read auto_conn:1
+[   11.375646] [CEI-IPPT INOTIFY] OEM Customer id: 19
+[   11.383626] [CEI-IPPT INOTIFY] The customer id '19' is not dongle device, skip 'inotifyd' monitor process ...
+[   18.029005] systemd[561]: QCMAP_ConnectionManagerd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   18.035976] systemd[560]: QCMAP_ConnectionManagerd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   18.037776] type=1400 audit(20.499:71): avc: denied { execute } for pid=560 comm="(nManager)" name="QCMAP_ConnectionManager" dev="ubifs" ino=12696 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qcmap_cm_exec_t:s0 tclass=file permissive=1
+[   18.048129] type=1400 audit(20.509:72): avc: denied { getattr } for pid=560 comm="QCMAP_Connectio" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   18.223950] QCMAP:Start Main
+[   18.256330] type=1400 audit(20.719:73): avc: denied { read } for pid=560 comm="QCMAP_Connectio" name="mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[   18.256641] type=1400 audit(20.719:74): avc: denied { open } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[   18.260356] type=1400 audit(20.719:75): avc: denied { getattr } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[   18.274590] QCMAP:qcmap_netlink_thread Entry for pid:560, tid:564, ppid:1
+[   18.275209] netlink: 8 bytes leftover after parsing attributes in process `QCMAP_Connectio'.
+[   18.283931] QCMAP:Netlink Query to Kernel Success
+[   18.355709] type=1400 audit(20.819:76): avc: denied { getattr } for pid=572 comm="sh" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[   18.362553] type=1400 audit(20.819:77): avc: denied { execute } for pid=572 comm="sh" name="ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[   18.407794] type=1400 audit(20.869:78): avc: denied { read } for pid=1 comm="systemd" name="dnsmasq_service@.service" dev="ubifs" ino=770 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dnsmasq_unit_t:s0 tclass=file permissive=1
+[   18.415568] type=1400 audit(20.869:79): avc: denied { getattr } for pid=1 comm="systemd" path="/systemd/system/dnsmasq_service@.service" dev="ubifs" ino=770 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dnsmasq_unit_t:s0 tclass=file permissive=1
+[   18.415741] type=1400 audit(20.879:80): avc: denied { getattr } for pid=1 comm="systemd" path="/bin/dnsmasq" dev="ubifs" ino=12738 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dnsmasq_exec_t:s0 tclass=file permissive=1
+[   18.438711] systemd[1]: dnsmasq_service@0.service: Unit cannot be reloaded because it is inactive.
+[   18.470750] bridge0: port 2(ecm0) entered blocking state
+[   18.470766] bridge0: port 2(ecm0) entered disabled state
+[   18.476592] device ecm0 entered promiscuous mode
+[   18.503874] QCMAP:Re-enable RNDIS/ECM/ETH interfaces
+[   18.527165] id1:ipa_usb_notify_cb: Set net_ready_trigger
+[   18.527340] MacBook ecm initial failure ep hang checking ...
+[   18.534618] bridge0: port 2(ecm0) entered blocking state
+[   18.534636] bridge0: port 2(ecm0) entered forwarding state
+[   18.539145] netlink: 4 bytes leftover after parsing attributes in process `QCMAP_Connectio'.
+[   18.561171] QCMAP:Netlink Query to Kernel Success
+[   18.584369] QCMAP:Open netlink socket succeeds
+[   18.617593] QCMAP:Re-enable RNDIS/ECM/ETH interfaces
+[   18.637319] device bridge0 entered promiscuous mode
+[   18.642797] netlink: 4 bytes leftover after parsing attributes in process `QCMAP_Connectio'.
+[   18.656079] QCMAP:Netlink Query to Kernel Success
+[   18.673922] QCMAP:Open netlink socket succeeds
+[   18.714009] QCMAP:Re-enable RNDIS/ECM/ETH interfaces
+[   18.733001] ------------[ cut here ]------------
+[   18.733036] WARNING: CPU: 0 PID: 618 at /home/rdadmin/Jenkins/workspace/ZX56_Daily_build_comm/sdx55-release-LE1.2-post-CS13-M2-Tricascade-VOS-DB/sdx55-le-1-0/SDX55_apps/apps_proc/poky/build/tmp-glibc/work-shared/sdxprairie/kernel-source/net/netfilter/nf_queue.c:35 nf_register_queue_handler+0x30/0x34
+[   18.733041] Modules linked in: usb_f_uac1 u_audio snd_pcm snd_timer snd soundcore
+[   18.733062] CPU: 0 PID: 618 Comm: sh Tainted: G     U          4.14.117-perf #1
+[   18.733067] Hardware name: Qualcomm Technologies, Inc. SDXPRAIRIE (Flattened Device Tree)
+[   18.733088] [<c010e518>] (unwind_backtrace) from [<c010b308>] (show_stack+0x10/0x14)
+[   18.733098] [<c010b308>] (show_stack) from [<c011e864>] (__warn+0xb8/0x100)
+[   18.733107] [<c011e864>] (__warn) from [<c011e990>] (warn_slowpath_null+0x20/0x28)
+[   18.733116] [<c011e990>] (warn_slowpath_null) from [<c0a31990>] (nf_register_queue_handler+0x30/0x34)
+[   18.733128] [<c0a31990>] (nf_register_queue_handler) from [<c0a513fc>] (proc_sip_segment+0x40/0x5c)
+[   18.733138] [<c0a513fc>] (proc_sip_segment) from [<c02aa170>] (proc_sys_call_handler+0xb0/0xe8)
+[   18.733148] [<c02aa170>] (proc_sys_call_handler) from [<c02a9fc0>] (proc_sys_write+0x14/0x1c)
+[   18.733158] [<c02a9fc0>] (proc_sys_write) from [<c023a2dc>] (vfs_write+0xc8/0x158)
+[   18.733167] [<c023a2dc>] (vfs_write) from [<c023a470>] (SyS_write+0x58/0xac)
+[   18.733177] [<c023a470>] (SyS_write) from [<c0107160>] (ret_fast_syscall+0x0/0x54)
+[   18.733183] ---[ end trace 98a22abb2c2e1705 ]---
+[   18.753531] netlink: 4 bytes leftover after parsing attributes in process `QCMAP_Connectio'.
+[   18.759383] QCMAP:Netlink Query to Kernel Success
+[   18.773773] QCMAP:Open netlink socket succeeds
+[   19.100613] systemd[668]: QCMAP_ConnectionManagerd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   19.275542] MacBook ecm initial failure ep hang checking ...
+[   19.308962] QCMAP:GSB disabled
+[   19.313999] QCMAP:SWIP disabled
+[   19.318626] QCMAP:N79 is not enabled
+[   19.324426] QCMAP:Hardware MAC Filtering State is Not Enabled
+[   19.383877] QCMAP:Init Complete
+[   19.388989] QCMAP:fusion platform function ecntered
+[   19.502224] QCMAP:CPE Fusion not Found
+[   19.502655] netlink: 4 bytes leftover after parsing attributes in process `QCMAP_Connectio'.
+[   19.507790] QCMAP:Netlink Query to Kernel Success
+[   19.549287] QCMAP:ECM mode
+[   19.554560] QCMAP:Enable mobileap
+[   19.564225] QCMAP:LINK_UP message posted
+[   19.804601] QCMAP:Enable mobileap done
+[   20.106803] systemd[1]: Started QCMAP connectionManager service.
+[   20.112513] systemd[1]: Starting Modem Init Service...
+[   20.120661] systemd[768]: init_sys_mss.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   20.121812] systemd[769]: init_sys_mss.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   20.128801] subsys-restart: __subsystem_get(): Changing subsys fw_name to modem
+[   20.128846] ipa-wan ipa3_lcl_mdm_ssr_notifier_cb:3135 IPA received MPSS BEFORE_POWERUP
+[   20.128861] ipa-wan ipa3_lcl_mdm_ssr_notifier_cb:3147 IPA BEFORE_POWERUP handling is complete
+[   20.143314] subsys-pil-tz 4080000.qcom,mss: modem: loading from 0x90800000 to 0xa0000000
+[   20.434938] USB Client Mac Address is a:a6:d1:14:e4:87
+[   24.781615] QCMAP:LINK_UP Processed
+[   26.797859] subsys-pil-tz 4080000.qcom,mss: modem: Brought out of reset
+[   26.847869] subsys-pil-tz 4080000.qcom,mss: modem: Power/Clock ready interrupt received
+[   26.848095] subsys-pil-tz 4080000.qcom,mss: Subsystem error monitoring/handling services are up
+[   26.856602] type=1400 audit(29.319:88): avc: denied { search } for pid=768 comm="init_mss" name="ipc_logging" dev="debugfs" ino=47 scontext=system_u:system_r:mss_t:s0-s15:c0.c1023 tcontext=system_u:object_r:debugfs_t:s0 tclass=dir permissive=1
+[   26.857251] ipa-wan ipa3_lcl_mdm_ssr_notifier_cb:3150 IPA received MPSS AFTER_POWERUP
+[   26.857266] ipa ipa3_odl_pipe_open:371 adpl pipe not configured
+[   26.857273] ipa-wan ipa3_lcl_mdm_ssr_notifier_cb:3156 IPA AFTER_POWERUP handling is complete
+[   26.857496] qrtr: Modem QMI Readiness RX cmd:0x2 node[0x3]
+[   26.860712] sysmon-qmi: ssctl_new_server: Connection established between QMI handle and modem's SSCTL service
+[   26.884395] coresight-remote-etm soc:modem_etm0: Connection established between QMI handle and 2 service
+[   26.884421] coresight-remote-etm soc:modem_etm1: Connection established between QMI handle and 2 service
+[   26.893823] diag: In diag_send_feature_mask_update, control channel is not open, p: 0, 00000000
+[   26.894192] diag: In diag_send_peripheral_buffering_mode, buffering flag not set for 0
+[   26.922985] type=1400 audit(29.389:89): avc: denied { search } for pid=268 comm="tftp_server" name="/" dev="ubifs" ino=1 scontext=system_u:system_r:tftp_server_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   26.926559] type=1400 audit(29.389:90): avc: denied { read } for pid=268 comm="tftp_server" name="thermal_config.ini" dev="ubifs" ino=73 scontext=system_u:system_r:tftp_server_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[   26.926689] type=1400 audit(29.389:91): avc: denied { open } for pid=268 comm="tftp_server" path="/oem/thermal_config.ini" dev="ubifs" ino=73 scontext=system_u:system_r:tftp_server_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[   26.926790] type=1400 audit(29.389:92): avc: denied { getattr } for pid=268 comm="tftp_server" path="/oem/thermal_config.ini" dev="ubifs" ino=73 scontext=system_u:system_r:tftp_server_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[   26.946518] Sending QMI_IPA_INIT_MODEM_DRIVER_REQ_V01
+[   26.948567] ipa-wan ipa3_handle_indication_req:151 not send indication
+[   26.972402] ipa ipa3_uc_wdi_event_log_info_handler:357 WDI protocol missing 0x21
+[   26.972423] ipa ipa3_uc_ntn_event_log_info_handler:40 NTN stats ofst=0x500e0
+[   26.976487] QMI_IPA_INIT_MODEM_DRIVER_REQ_V01 response received
+[   27.909089] USB Client Mac Address is 0a:a6:d1:14:e4:87 
+[   27.909175] QCMAP:USB Client IP Addr 192.168.225.50 
+[   27.929147] QCMAP:USB Client IP Addr 192.168.225.50
+[   28.739137] ipa-wan ipa3_wwan_ioctl:2018 dev(rmnet_data0) register to IPA
+[   29.610973] NOHZ: local_softirq_pending 08
+[   29.610987] NOHZ: local_softirq_pending 08
+[   29.764378] NOHZ: local_softirq_pending 08
+[   29.764390] NOHZ: local_softirq_pending 08
+[   29.883225] NOHZ: local_softirq_pending 08
+[   29.883237] NOHZ: local_softirq_pending 08
+[   30.376473] NOHZ: local_softirq_pending 08
+[   30.376485] NOHZ: local_softirq_pending 08
+[   30.628497] NOHZ: local_softirq_pending 08
+[   30.628508] NOHZ: local_softirq_pending 08
+[   32.134584] systemd[1]: Started Modem Init Service.
+[   32.135330] systemd[1]: Reached target Sockets.
+[   32.142513] systemd[1062]: systemrw-etc-passwd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.143628] systemd[1]: Starting Bind mount volatile /etc/passwd...
+[   32.151158] systemd[1]: Starting Bind mount volatile /etc/data/usb/...
+[   32.157352] systemd[1063]: systemrw-data-usb.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.161656] systemd[1064]: systemrw-data-adpl.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.167992] systemd[1]: Starting Bind mount volatile /etc/data/adpl/...
+[   32.191795] systemd[1070]: systemrw-etc-shadow.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.206112] type=1400 audit(34.669:93): avc: denied { mounton } for pid=1068 comm="mount" path="/etc/passwd" dev="ubifs" ino=7029 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:etc_t:s0 tclass=file permissive=1
+[   32.207689] systemd[1]: Starting Bind mount volatile /etc/shadow...
+[   32.216561] systemd[1]: Starting Bind mount volatile /etc/data/ipa/...
+[   32.225829] systemd[1073]: systemrw-data-ipa.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.238335] type=1400 audit(34.679:94): avc: denied { getattr } for pid=1070 comm="mount-copybind" path="/etc/shadow" dev="ubifs" ino=12552 scontext=system_u:system_r:mount_copybind_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+[   32.248358] systemd[1080]: systemrw-bluetooth.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.256752] systemd[1]: Starting Bind mount volatile /etc/bluetooth/...
+[   32.261046] systemd[1]: Starting Bind mount volatile /etc/data/iproute2/rt_tables...
+[   32.275355] systemd[1083]: systemrw-rt_tables.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.283614] type=1400 audit(34.719:95): avc: denied { getattr } for pid=1079 comm="mount" path="/systemrw/etc/shadow" dev="ubifs" ino=115 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+[   32.316248] systemd[1]: Starting Bind mount volatile /etc/data/miniupnpd/...
+[   32.325835] type=1400 audit(34.759:96): avc: denied { mounton } for pid=1079 comm="mount" path="/etc/shadow" dev="ubifs" ino=12552 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+[   32.371355] systemd[1094]: systemrw-data-miniupnpd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.384202] systemd[1095]: systemrw-build.prop.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.385618] systemd[1107]: systemrw-boot_hsic_comp.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.416159] systemd[1111]: systemrw-data.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   32.449334] systemd[1116]: systemd-udev-trigger.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   33.511387] systemd[1241]: systemd-udev-trigger.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   33.535057] systemd[1244]: cei_check_passwd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   33.763848] type=1400 audit(36.229:97): avc: denied { execute } for pid=1263 comm="kworker/u2:8" name="kmod" dev="ubifs" ino=12502 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmod_exec_t:s0 tclass=file permissive=1
+[   33.785608] type=1400 audit(36.229:98): avc: denied { read } for pid=1263 comm="modprobe" name="modules" dev="ubifs" ino=1232 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:modules_object_t:s0 tclass=lnk_file permissive=1
+[   34.426893] systemd[1343]: lighttpd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.431718] systemd[1344]: rpcbind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.454546] systemd[1345]: atfwd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.471485] systemd[1346]: logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.481787] systemd[1348]: systemd-logind.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.493698] type=1400 audit(36.959:99): avc: denied { execute } for pid=1345 comm="(d_daemon)" name="atfwd_daemon" dev="ubifs" ino=12706 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:atfwd_exec_t:s0 tclass=file permissive=1
+[   34.520639] [lighttpd] Starting Lighttpd Web Server:
+[   34.520764] [lighttpd] PROJECT: RXM-G1
+[   34.521013] [lighttpd zx56] lighttpd.user exists
+[   34.521099] [lighttpd zx56] lighttpd.user size > 0
+[   34.552001] systemd[1349]: cache.mount: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.552403] type=1400 audit(36.979:100): avc: denied { write } for pid=1343 comm="lighttpd" name="kmsg" dev="devtmpfs" ino=7490 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmsg_device_t:s15:c0.c1023 tclass=chr_file permissive=1
+[   34.553032] type=1400 audit(36.989:101): avc: denied { open } for pid=1343 comm="lighttpd" path="/dev/kmsg" dev="devtmpfs" ino=7490 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmsg_device_t:s15:c0.c1023 tclass=chr_file permissive=1
+[   34.553146] type=1400 audit(36.989:102): avc: denied { execute } for pid=1348 comm="(d-logind)" name="systemd-logind" dev="ubifs" ino=12632 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_logind_exec_t:s0 tclass=file permissive=1
+[   34.570844] systemd[1351]: power_config.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.601535] systemd[1353]: aqc-ipa-offload.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.630126] UBIFS (ubi0:2): background thread "ubifs_bgt0_2" started, PID 1356
+[   34.630546] systemd[1355]: mbimd-cmd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.645978] systemd[1357]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.659676] systemd[1358]: qtid.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.687428] systemd[1359]: qti_pppd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.714426] systemd[1360]: mbimd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.729136] systemd[1361]: mbimd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.748358] systemd[1363]: pcie-diag.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.796406] systemd[1362]: ipacm_perf.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.821910] systemd[1364]: reboot-daemon.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.879446] systemd[1367]: start_wlan_services.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.884290] systemd[1368]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.904476] pcie-diag is invoked
+[   34.934995] systemd[1370]: bluetooth_power.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.943908] systemd[1371]: r8125.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   34.984873] zram0: detected capacity change from 0 to 104857600
+[   35.001534] systemd[1372]: leprop.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.034281] systemd[1375]: chg-policy.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.036678] systemd[1376]: fs-scrub-daemon.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.079771] UBIFS (ubi0:2): recovery needed
+[   35.084035] systemd[1377]: reset_reboot_cookie.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.127412] systemd[1379]: QCMAP_Web_CLIENT.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.131545] audit_log_lost: 17 callbacks suppressed
+[   35.131550] audit: audit_lost=1 audit_rate_limit=20 audit_backlog_limit=64
+[   35.131564] audit: rate limit exceeded
+[   35.159244] systemd[1383]: crid.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.173618] systemd[1385]: embmsd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.186434] aqc_ipa_offload: loading out-of-tree module taints kernel.
+[   35.273833] systemd[1386]: adpld.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.288985] systemd[1402]: fotaclient_init.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.321431] systemd[1403]: ceiril.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.328372] systemd[1404]: busybox-syslog.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.366493] systemd[1407]: qseecomd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.381532] systemd[1408]: ceisar.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.411618] systemd[1410]: qmi_ip_multiclientd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.421684] systemd[1411]: data-init.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.444210] systemd[1412]: port_bridge.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.463995] systemd[1414]: qce_dlkm.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.521575] systemd[1415]: recovery-update.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.562574] systemd[1425]: ceioptimize.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.607152] systemd[1429]: misc_daemon.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.624944] systemd[1430]: thermal-engine.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.647638] systemd-logind[1348]: New seat seat0.
+[   35.665314] systemd[1431]: qmuxbridged.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.775810] systemd[1434]: ceiled.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   35.779352] Adding 102396k swap on /dev/zram0.  Priority:-2 extents:1 across:102396k SS
+[   35.779877] ++++ /etc/initscripts/power_config -> ENABLE-FTRACE START
+[   36.058795] embms:start/load
+[   36.198772] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[   36.281333] Starting/Loading crypto modules: 
+[   36.290622] systemd[1455]: logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   36.343383] systemd[1433]: qmuxbridged.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   36.384899] UBIFS (ubi0:2): recovery completed
+[   36.385070] UBIFS (ubi0:2): UBIFS: mounted UBI device 0, volume 2, name "cachefs"
+[   36.385080] UBIFS (ubi0:2): LEB size: 253952 bytes (248 KiB), min./max. I/O unit sizes: 4096 bytes/4096 bytes
+[   36.385087] UBIFS (ubi0:2): FS size: 13205504 bytes (12 MiB, 52 LEBs), journal size 2031617 bytes (1 MiB, 6 LEBs)
+[   36.385093] UBIFS (ubi0:2): reserved for root: 623728 bytes (609 KiB)
+[   36.385101] UBIFS (ubi0:2): media format: w5/r0 (latest is w5/r0), UUID 71E4D17C-8C63-49C1-802B-17E8F09C6B97, small LPT model
+[   36.682128] systemd[1480]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   36.710992] qbi:MBIM Process Started
+[   36.775449] systemd[1484]: qti_pppd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   36.784013] systemd[1483]: qtid.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   36.856917] hvdcpd: Failed to find usb adc entry.
+[   36.927278] systemd[1495]: mbimd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.035092] systemd[1499]: leprop.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.161065] systemd[1]: Started adpl service.
+[   37.199352] qbi:android_mbim node is up for I/O
+[   37.214508] systemd[1513]: fotaclient_init.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.220570] type=1400 audit(39.559:153): avc: denied { execute } for pid=1483 comm="(cript.sh)" name="sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[   37.221197] type=1400 audit(39.559:154): avc: denied { execute } for pid=1484 comm="(qti_ppp)" name="qti_ppp" dev="ubifs" ino=12840 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dataqti_ppp_exec_t:s0 tclass=file permissive=1
+[   37.221651] type=1400 audit(39.589:155): avc: denied { getattr } for pid=1471 comm="wlan_services" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:wlan_service_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   37.221755] type=1400 audit(39.599:156): avc: denied { getattr } for pid=1484 comm="qti_ppp" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:dataqti_ppp_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   37.221840] type=1400 audit(39.639:157): avc: denied { getattr } for pid=1499 comm="leprop-service" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:leprop_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   37.223632] systemd[1508]: adpld.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.242403] systemd[1]: Started System Logging Service.
+[   37.243974] systemd[1]: Started Qseecomd Service.
+[   37.367332] systemd[1]: Started Port bridge Service.
+[   37.375909] iommu: Adding device 1de0000.qcedev to group 5
+[   37.376837] register_client_adhoc:find path.src 125 dest 512
+[   37.376987] register_client_adhoc:Client handle 16 qcedev-noc
+[   37.388215] QCE50: __qce_get_device_tree_data: CE operating frequency is not defined, setting to default 100MHZ
+[   37.426968] qce 1de0000.qcedev: QTI Crypto 5.4.2 device found @0x1de0000
+[   37.427279] sps:BAM 0x01dc4000 is registered.
+[   37.427702] sps:BAM 0x01dc4000 (va:0x00000000) enabled: ver:0x27, number of pipes:16
+[   37.428638] QCE50: qce_sps_init:  QTI MSM CE-BAM at 0x0000000001dc4000 irq 33
+[   37.456439] systemd[1]: Started recovery-update.service.
+[   37.504983] type=1400 audit(39.769:158): avc: denied { execute } for pid=1510 comm="start-stop-daem" name="qseecomd" dev="ubifs" ino=12836 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qseecomd_exec_t:s0 tclass=file permissive=1
+[   37.505647] type=1400 audit(39.779:159): avc: denied { execute } for pid=1508 comm="(adpl)" name="adpl" dev="ubifs" ino=12704 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dataadpl_exec_t:s0 tclass=file permissive=1
+[   37.506111] type=1400 audit(39.859:160): avc: denied { getattr } for pid=1354 comm="chmod" path="/oem/www/assets/scss/now-ui-dashboard/_inputs.scss" dev="ubifs" ino=136 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[   37.506215] type=1400 audit(39.859:161): avc: denied { setattr } for pid=1354 comm="chmod" name="_inputs.scss" dev="ubifs" ino=136 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[   37.506297] type=1400 audit(39.859:162): avc: denied { fowner } for pid=1354 comm="chmod" capability=3 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tclass=capability permissive=1
+[   37.576566] systemd[1529]: qmuxbridged.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.590648] systemd[1533]: logd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.593665] systemd[1]: init_audio.service: Control process exited, code=exited status=1
+[   37.594321] systemd[1]: init_audio.service: Failed with result 'exit-code'.
+[   37.599223] systemd[1]: Failed to start Audio Init Service.
+[   37.615583] systemd[1535]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.690406] systemd[1]: Started qti service.
+[   37.830324] systemd[1]: Started fota client init service.
+[   37.837038] systemd[1540]: qtid.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   37.839294] systemd[1541]: mbimd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   38.002092] iommu: Adding device 1de0000.qcrypto to group 6
+[   38.002179] register_client_adhoc:find path.src 125 dest 512
+[   38.002346] register_client_adhoc:Client handle 17 qcrypto-noc
+[   38.002970] QCE50: __qce_get_device_tree_data: CE operating frequency is not defined, setting to default 100MHZ
+[   38.008999] systemd[1565]: mbimd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   38.010502] qcrypto 1de0000.qcrypto: QTI Crypto 5.4.2 device found @0x1de0000
+[   38.060318] QCE50: qce_sps_init:  QTI MSM CE-BAM at 0x0000000001dc4000 irq 33
+[   38.103250] qcrypto 1de0000.qcrypto: qcrypto-ecb-aes
+[   38.133978] qcrypto 1de0000.qcrypto: qcrypto-cbc-aes
+[   38.150673] qcrypto 1de0000.qcrypto: qcrypto-ctr-aes
+[   38.160615] qcrypto 1de0000.qcrypto: qcrypto-ecb-des
+[   38.170587] qcrypto 1de0000.qcrypto: qcrypto-cbc-des
+[   38.191060] qcrypto 1de0000.qcrypto: qcrypto-ecb-3des
+[   38.193809] qcrypto 1de0000.qcrypto: qcrypto-cbc-3des
+[   38.220181] qcrypto 1de0000.qcrypto: qcrypto-xts-aes
+[   38.239915] qcrypto 1de0000.qcrypto: qcrypto-sha1
+[   38.257331] qcrypto 1de0000.qcrypto: qcrypto-sha256
+[   38.270194] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha1-cbc-aes
+[   38.285839] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha1-cbc-des
+[   38.309575] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha1-cbc-3des
+[   38.323133] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha256-cbc-aes
+[   38.340304] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha256-cbc-des
+[   38.360308] qcrypto 1de0000.qcrypto: qcrypto-aead-hmac-sha256-cbc-3des
+[   38.402288] qcrypto 1de0000.qcrypto: qcrypto-hmac-sha1
+[   38.412369] qcrypto 1de0000.qcrypto: qcrypto-hmac-sha256
+[   38.416565] systemd-logind[1348]: Watching system buttons on /dev/input/event0 (qpnp_pon)
+[   38.422194] qcrypto 1de0000.qcrypto: qcrypto-aes-ccm
+[   38.425533] qcrypto 1de0000.qcrypto: qcrypto-rfc4309-aes-ccm
+[   38.426907] Done loading crypto modules.
+[   38.468937] [lighttpd] self-signing certificates already exist for webserver:
+[   38.469059] lighttpd.
+[   38.593158] systemd[1629]: lighttpd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.197884] systemd[1675]: qmi_shutdown_modemd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.254049] systemd[1678]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.306086] systemd[1683]: location_hal_daemon.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.335630] systemd[1684]: loc_launcher.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.374665] QTI: DPM Init cb
+[   39.402632] QTI: DPM Init cb
+[   39.411609] systemd[1691]: sfsconfig.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.485840] systemd[1694]: audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.491802] QTI: Modem In Service
+[   39.550813] systemd[1697]: label-cache.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.648578] systemd[1700]: nfs-statd.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   39.671082] audio:start/load
+[   39.801415] systemd[1712]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.065840] systemd[1727]: csd_server.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.233766] systemd[1738]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.308451] systemd[1743]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.345399] systemd[1747]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.429767] systemd[1753]: thermal-engine.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.455647] systemd[1757]: datasync.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.463569] systemd[1758]: thermal-logging.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   40.847221] thermal-logging is invoked
+[   40.931763] systemd[1797]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   41.020486] thermal-logging: logging disabled
+[   41.353826] audio_notifier_init: PDR register failed, ret = -19, disable service
+[   41.365666] systemd[1825]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   41.618062] systemd[1835]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   41.681622] audio_notifer_reg_service: service SSR_MODEM is in use
+[   41.687292] apr_tal_rpmsg qcom,glink:modem.apr_audio_svc.-1.-1: apr_tal_rpmsg_probe: Channel[apr_audio_svc] state[Up]
+[   41.903515] systemd[1854]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   42.108846] systemd[1864]: init_audio.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   42.316196] systemd[1]: Started Audio Init Service.
+[   42.593605] \n add rndis to bridge start
+[   42.595049] type=1400 audit(45.059:202): avc: denied { getattr } for pid=1884 comm="data_udev_scrip" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[   42.653619] systemd-udevd[1423]: Failed to apply ACL on /dev/snd/timer: Operation not supported
+[   42.663735] type=1400 audit(45.099:203): avc: denied { execute } for pid=1887 comm="data_udev_scrip" name="ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[   42.791272] \n add rndis to bridge stop
+[   43.409237] systemd[1917]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   43.800227] type=1400 audit(46.259:204): avc: denied { read } for pid=1629 comm="lighttpd" name="dhparams.pem" dev="ubifs" ino=69 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[   43.810489] type=1400 audit(46.279:205): avc: denied { open } for pid=1629 comm="lighttpd" path="/data/dhparams.pem" dev="ubifs" ino=69 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[   43.810848] type=1400 audit(46.279:206): avc: denied { getattr } for pid=1629 comm="lighttpd" path="/data/dhparams.pem" dev="ubifs" ino=69 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[   44.018039] systemd[1]: Started Lightning Fast Webserver With Light System Requirements.
+[   44.334693] msm_pcm_probe: dev name soc:qcom,msm-voice-host-pcm
+[   44.361127] msm_audio_ion_alloc: vaddr = 00000000, size=24
+[   44.367472] msm_audio_ion_alloc: vaddr = 00000000, size=8192
+[   44.367494] msm_audio_ion_alloc: vaddr = 00000000, size=24
+[   44.507963] systemd[1]: Started diagrebootapp service.
+[   44.549615] systemd[1985]: ipacmdiag.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   44.556094] systemd[1984]: diag-reboot-app.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   44.557661] systemd[1]: Started IPACM DIAG Service.
+[   44.565341] systemd[1]: Reached target Multi-User System.
+[   44.597580] systemd[1986]: init_post_boot.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   44.620225] type=1400 audit(47.069:207): avc: denied { getattr } for pid=1984 comm="diagrebootapp" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:diagrebootapp_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   44.640574] systemd[1]: Starting QTI Post Boot Service...
+[   44.684048] type=1400 audit(47.089:208): avc: denied { execute } for pid=1985 comm="(pacmdiag)" name="ipacmdiag" dev="ubifs" ino=12762 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ipacm_diag_exec_t:s0 tclass=file permissive=1
+[   44.684679] type=1400 audit(47.109:209): avc: denied { getattr } for pid=1987 comm="insmod" path="/lib/modules/4.14.117-perf/extra/pinctrl_wcd_dlkm.ko" dev="ubifs" ino=13138 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:modules_object_t:s0 tclass=file permissive=1
+[   44.685143] type=1400 audit(47.119:210): avc: denied { getattr } for pid=1985 comm="ipacmdiag" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:ipacm_diag_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[   44.750630] type=1400 audit(47.169:211): avc: denied { read } for pid=1987 comm="insmod" name="pinctrl_wcd_dlkm.ko" dev="ubifs" ino=13138 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:modules_object_t:s0 tclass=file permissive=1
+[   44.785037] ++++ /etc/initscripts/init_post_boot -> Starting init_qcom_post_boot: 
+[   44.844041] msm_cdc_pinctrl_probe 
+[   44.902070] systemd[1]: Started QTI Post Boot Service.
+[   44.908809] systemd[2013]: oeminit_post.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   44.915157] systemd[1]: Started oem init service.
+[   44.918110] systemd[2013]: oeminit_post.service: Failed to execute command: Permission denied
+[   44.918378] systemd[2013]: oeminit_post.service: Failed at step EXEC spawning /oem/script/oem_init_post.sh: Permission denied
+[   44.921238] systemd[1677]: serial-getty@ttyMSM0.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[   44.930632] systemd[1]: Startup finished in 1.725s (kernel) + 43.204s (userspace) = 44.930s.
+[   44.946353] systemd[1]: oeminit_post.service: Main process exited, code=exited, status=203/EXEC
+[   45.079751] sdx_asoc_machine_probe 
+[   45.079865] sdx_asoc_machine_probe sdx_populate_dai_link_component_of_node
+[   45.080730] sdx_asoc_machine_probe sdx_init_wsa_dev
+[   45.080751] sdx-asoc-snd soc:sound-tavil: sdx_init_wsa_dev: Max WSA devices is 0 for this target?
+[   45.080759] sdx-asoc-snd soc:sound-tavil: sdx_init_wsa_dev: Max WSA devices is 0 for this target?
+[   45.080763] sdx_asoc_machine_probe snd_soc_register_card
+[   45.110646] msm-pcm-routing soc:qcom,msm-pcm-routing: ASoC: no source widget found for AUDIO_REF_EC_UL30 MUX
+[   45.110667] msm-pcm-routing soc:qcom,msm-pcm-routing: ASoC: Failed to add route AUDIO_REF_EC_UL30 MUX -> direct -> MM_UL30
+[   46.281023] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-dtmf-tx: ASoC: no sink widget found for STUB_DTMF_TX
+[   46.281044] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-dtmf-tx: ASoC: Failed to add route DTMF TX -> direct -> STUB_DTMF_TX
+[   46.281699] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-rx-capture-tx: ASoC: no sink widget found for STUB_HOST_RX_CAPTURE_TX
+[   46.281708] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-rx-capture-tx: ASoC: Failed to add route CS-VOICE HOST RX CAPTURE -> direct -> STUB_HOST_RX_CAPTURE_TX
+[   46.281775] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-rx-playback-rx: ASoC: no source widget found for STUB_HOST_RX_PLAYBACK_RX
+[   46.281783] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-rx-playback-rx: ASoC: Failed to add route STUB_HOST_RX_PLAYBACK_RX -> direct -> CS-VOICE HOST RX PLAYBACK
+[   46.281845] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-tx-capture-tx: ASoC: no sink widget found for STUB_HOST_TX_CAPTURE_TX
+[   46.281853] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-tx-capture-tx: ASoC: Failed to add route CS-VOICE HOST TX CAPTURE -> direct -> STUB_HOST_TX_CAPTURE_TX
+[   46.281916] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-tx-playback-rx: ASoC: no source widget found for STUB_HOST_TX_PLAYBACK_RX
+[   46.281924] msm-dai-stub-dev soc:qcom,msm-dai-stub:qcom,msm-dai-stub-host-tx-playback-rx: ASoC: Failed to add route STUB_HOST_TX_PLAYBACK_RX -> direct -> CS-VOICE HOST TX PLAYBACK
+[   46.575500] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MCLK
+[   46.575518] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MCLK -> direct -> RX_BIAS
+[   46.575600] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MCLK
+[   46.575607] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MCLK -> direct -> MADINPUT
+[   46.575676] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS2
+[   46.575683] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS2 -> direct -> AMIC2
+[   46.575750] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Headset Mic
+[   46.575757] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Headset Mic -> direct -> MIC BIAS2
+[   46.575821] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS2
+[   46.575827] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS2 -> direct -> AMIC3
+[   46.575889] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for ANCRight Headset Mic
+[   46.575896] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route ANCRight Headset Mic -> direct -> MIC BIAS2
+[   46.575958] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS2
+[   46.575965] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS2 -> direct -> AMIC4
+[   46.576025] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for ANCLeft Headset Mic
+[   46.576031] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route ANCLeft Headset Mic -> direct -> MIC BIAS2
+[   46.576091] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS3
+[   46.576098] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS3 -> direct -> AMIC5
+[   46.576158] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Handset Mic
+[   46.576165] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Handset Mic -> direct -> MIC BIAS3
+[   46.576223] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS1
+[   46.576230] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS1 -> direct -> DMIC1
+[   46.576289] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Digital Mic1
+[   46.576296] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Digital Mic1 -> direct -> MIC BIAS1
+[   46.576354] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS3
+[   46.576361] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS3 -> direct -> DMIC2
+[   46.576419] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Digital Mic2
+[   46.576425] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Digital Mic2 -> direct -> MIC BIAS3
+[   46.576484] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS3
+[   46.576490] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS3 -> direct -> DMIC3
+[   46.576549] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Digital Mic3
+[   46.576556] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Digital Mic3 -> direct -> MIC BIAS3
+[   46.576615] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS4
+[   46.576622] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS4 -> direct -> DMIC4
+[   46.576680] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Digital Mic4
+[   46.576688] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Digital Mic4 -> direct -> MIC BIAS4
+[   46.576746] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for MIC BIAS4
+[   46.576753] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route MIC BIAS4 -> direct -> DMIC5
+[   46.576812] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for Digital Mic5
+[   46.576819] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route Digital Mic5 -> direct -> MIC BIAS4
+[   46.576881] sdx-asoc-snd soc:sound-tavil: ASoC: no source widget found for SPK2 OUT
+[   46.576888] sdx-asoc-snd soc:sound-tavil: ASoC: Failed to add route SPK2 OUT -> direct -> SpkrRight IN
+[   46.639456] systemd-udevd[2033]: Failed to apply ACL on /dev/snd/controlC0: Operation not supported
+[   46.658167] systemd-udevd[2035]: Failed to apply ACL on /dev/snd/pcmC0D0c: Operation not supported
+[   46.665769] systemd-udevd[2037]: Failed to apply ACL on /dev/snd/pcmC0D1c: Operation not supported
+[   46.675710] systemd-udevd[2038]: Failed to apply ACL on /dev/snd/pcmC0D2p: Operation not supported
+[   46.684312] systemd-udevd[2034]: Failed to apply ACL on /dev/snd/pcmC0D0p: Operation not supported
+[   46.699957] systemd-udevd[2042]: Failed to apply ACL on /dev/snd/pcmC0D5p: Operation not supported
+[   46.701777] systemd-udevd[2036]: Failed to apply ACL on /dev/snd/pcmC0D1p: Operation not supported
+[   46.707423] systemd-udevd[2039]: Failed to apply ACL on /dev/snd/pcmC0D2c: Operation not supported
+[   46.709795] systemd-udevd[2041]: Failed to apply ACL on /dev/snd/pcmC0D4c: Operation not supported
+[   87.586283] type=1400 audit(90.049:220): avc: denied { execute } for pid=2166 comm="QCMAP_Connectio" name="sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[  102.297076] Deleting Client Conntrack IP:192.168.225.50
+[  102.306310] type=1400 audit(104.769:221): avc: denied { getattr } for pid=2228 comm="sh" path="/sbin/conntrack" dev="ubifs" ino=5295 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:iptables_exec_t:s0 tclass=file permissive=1
+[  102.310410] type=1400 audit(104.769:222): avc: denied { execute } for pid=2228 comm="sh" name="conntrack" dev="ubifs" ino=5295 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:iptables_exec_t:s0 tclass=file permissive=1
+[  102.317439] type=1400 audit(104.779:223): avc: denied { getattr } for pid=2228 comm="conntrack" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:iptables_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[  102.323406] type=1400 audit(104.789:224): avc: denied { getattr } for pid=2229 comm="sh" path="/sbin/conntrack" dev="ubifs" ino=5295 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:iptables_exec_t:s0 tclass=file permissive=1
+[  102.329323] type=1400 audit(104.789:225): avc: denied { execute } for pid=2229 comm="sh" name="conntrack" dev="ubifs" ino=5295 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:iptables_exec_t:s0 tclass=file permissive=1
+[  107.517729] type=1400 audit(109.989:226): avc: denied { read } for pid=560 comm="QCMAP_Connectio" name="mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[  107.524557] type=1400 audit(109.989:227): avc: denied { open } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[  107.525128] type=1400 audit(109.989:228): avc: denied { getattr } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[  107.560215] type=1400 audit(110.019:229): avc: denied { write } for pid=2247 comm="cp" name="mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[  111.964559] systemd[1]: Created slice system-sshd.slice.
+[  111.977101] systemd[1]: Starting OpenSSH Key Generation...
+[  111.982041] systemd[2265]: sshdgenkeys.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[  112.108460] type=1400 audit(114.569:230): avc: denied { getattr } for pid=2265 comm="sshd_check_keys" path="/bin/ssh-keygen" dev="ubifs" ino=12858 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ssh_keygen_exec_t:s0 tclass=file permissive=1
+[  112.140328] type=1400 audit(114.579:231): avc: denied { execute } for pid=2282 comm="sshd_check_keys" name="ssh-keygen" dev="ubifs" ino=12858 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ssh_keygen_exec_t:s0 tclass=file permissive=1
+[  112.140950] type=1400 audit(114.589:232): avc: denied { getattr } for pid=2282 comm="ssh-keygen" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[  113.899068] type=1400 audit(116.359:233): avc: denied { write } for pid=2282 comm="ssh-keygen" name="ssh" dev="tmpfs" ino=26430 scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=dir permissive=1
+[  113.899359] type=1400 audit(116.359:234): avc: denied { add_name } for pid=2282 comm="ssh-keygen" name="ssh_host_rsa_key.tmp" scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=dir permissive=1
+[  113.900307] type=1400 audit(116.359:235): avc: denied { create } for pid=2282 comm="ssh-keygen" name="ssh_host_rsa_key.tmp" scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=file permissive=1
+[  113.900449] type=1400 audit(116.359:236): avc: denied { write open } for pid=2282 comm="ssh-keygen" path="/run/ssh/ssh_host_rsa_key.tmp" dev="tmpfs" ino=26473 scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=file permissive=1
+[  113.905862] type=1400 audit(116.359:237): avc: denied { getattr } for pid=2282 comm="ssh-keygen" path="/run/ssh/ssh_host_rsa_key.tmp.pub" dev="tmpfs" ino=26474 scontext=system_u:system_r:ssh_keygen_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=file permissive=1
+[  114.054540] systemd[1]: Started OpenSSH Key Generation.
+[  114.062748] systemd[1]: Started OpenSSH Per-Connection Daemon (192.168.225.30:57778).
+[  114.067602] systemd[2310]: sshd@0-192.168.225.1:22-192.168.225.30:57778.service: Failed to connect stderr to the journal socket, ignoring: No such file or directory
+[  114.069453] type=1400 audit(116.529:238): avc: denied { execute } for pid=2310 comm="(sshd)" name="sshd" dev="ubifs" ino=13294 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:sshd_exec_t:s0 tclass=file permissive=1
+[  114.150372] type=1400 audit(116.609:239): avc: denied { getattr } for pid=2310 comm="sshd" path="/run/sshd" dev="tmpfs" ino=12852 scontext=system_u:system_r:sshd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:initrc_var_run_t:s0 tclass=dir permissive=1
+[  199.585449] type=1400 audit(202.049:240): avc: denied { read } for pid=1 comm="systemd" name="sshd@.service" dev="ubifs" ino=928 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:sshd_unit_t:s0 tclass=file permissive=1
+[  199.588443] type=1400 audit(202.049:241): avc: denied { getattr } for pid=1 comm="systemd" path="/systemd/system/sshd@.service" dev="ubifs" ino=928 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:sshd_unit_t:s0 tclass=file permissive=1
+[  199.607062] systemd[1]: Started OpenSSH Per-Connection Daemon (192.168.225.30:43084).
+[  199.612597] systemd[2535]: sshd@1-192.168.225.1:22-192.168.225.30:43084.service: Failed to connect stderr to the journal socket, ignoring: No such file or directory
+[  204.747545] type=1400 audit(207.209:242): avc: denied { getattr } for pid=2535 comm="sshd" path="/lib/busybox/bin/sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[  220.914056] type=1400 audit(223.379:243): avc: denied { execute } for pid=2578 comm="sshd" name="unix_chkpwd" dev="ubifs" ino=5105 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:chkpwd_exec_t:s0 tclass=file permissive=1
+[  220.917570] type=1400 audit(223.379:244): avc: denied { getattr } for pid=2578 comm="unix_chkpwd" path="/lib" dev="overlay" ino=10825 scontext=system_u:system_r:chkpwd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[  252.665890] type=1400 audit(255.129:245): avc: denied { transition } for pid=2652 comm="sshd" path="/usr/lib/busybox/bin/sh" dev="ubifs" ino=2181 scontext=system_u:system_r:sshd_t:s0-s15:c0.c1023 tcontext=root:sysadm_r:sysadm_t:s0 tclass=process permissive=1
+[  252.669180] type=1400 audit(255.129:246): avc: denied { noatsecure } for pid=2652 comm="sshd" scontext=system_u:system_r:sshd_t:s0-s15:c0.c1023 tcontext=root:sysadm_r:sysadm_t:s0 tclass=process permissive=1
+[  252.669350] type=1400 audit(255.129:247): avc: denied { rlimitinh } for pid=2652 comm="sh" scontext=system_u:system_r:sshd_t:s0-s15:c0.c1023 tcontext=root:sysadm_r:sysadm_t:s0 tclass=process permissive=1
+[  252.669480] type=1400 audit(255.129:248): avc: denied { siginh } for pid=2652 comm="sh" scontext=system_u:system_r:sshd_t:s0-s15:c0.c1023 tcontext=root:sysadm_r:sysadm_t:s0 tclass=process permissive=1
+[  923.523076] systemd[1]: Starting Cleanup of Temporary Directories...
+[  923.527171] systemd[4071]: systemd-tmpfiles-clean.service: Failed to connect stdout to the journal socket, ignoring: No such file or directory
+[  923.529348] type=1400 audit(925.989:249): avc: denied { execute } for pid=4071 comm="(tmpfiles)" name="systemd-tmpfiles" dev="ubifs" ino=7407 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_tmpfiles_exec_t:s0 tclass=file permissive=1
+[  923.629156] systemd[1]: Started Cleanup of Temporary Directories.
+[ 2229.241280] type=1400 audit(2231.699:250): avc: denied { getattr } for pid=2652 comm="sh" path="/kmod" dev="ubifs" ino=12502 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmod_exec_t:s0 tclass=file permissive=1
+[ 2386.333072] type=1400 audit(2388.799:251): avc: denied { read } for pid=2652 comm="sh" name="modules" dev="ubifs" ino=1232 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:modules_object_t:s0 tclass=lnk_file permissive=1
+[ 2403.369326] type=1400 audit(2405.829:252): avc: denied { execute } for pid=7170 comm="ceiled" name="sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[ 2654.117632] type=1400 audit(2656.579:253): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[ 2654.123824] type=1400 audit(2656.589:254): avc: denied { execute } for pid=7702 comm="sh" name="ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[ 2736.715588] type=1400 audit(2739.179:255): avc: denied { getattr } for pid=2652 comm="sh" path="/data" dev="ubifs" ino=1 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[ 2736.719863] type=1400 audit(2739.179:256): avc: denied { getattr } for pid=2652 comm="sh" path="/WEBSERVER" dev="ubifs" ino=12076 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=dir permissive=1
+[ 2736.725106] type=1400 audit(2739.189:257): avc: denied { getattr } for pid=2652 comm="sh" path="/systemrw" dev="ubifs" ino=1 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:system_data_t:s0 tclass=dir permissive=1
+[ 2736.725405] type=1400 audit(2739.189:258): avc: denied { getattr } for pid=2652 comm="sh" path="/build.prop" dev="ubifs" ino=13374 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:leprop_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[ 2933.844251] type=1400 audit(2936.309:259): avc: denied { getattr } for pid=8301 comm="ls" path="/kmod" dev="ubifs" ino=12502 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmod_exec_t:s0 tclass=file permissive=1
+[ 2933.859228] type=1400 audit(2936.319:260): avc: denied { getattr } for pid=8301 comm="ls" path="/traceroute6" dev="ubifs" ino=7409 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:traceroute_exec_t:s0 tclass=file permissive=1
+[ 2933.872838] type=1400 audit(2936.339:261): avc: denied { getattr } for pid=8301 comm="ls" path="/systemd-tmpfiles" dev="ubifs" ino=7407 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_tmpfiles_exec_t:s0 tclass=file permissive=1
+[ 2933.905754] type=1400 audit(2936.369:262): avc: denied { getattr } for pid=8301 comm="ls" path="/systemd-tty-ask-password-agent" dev="ubifs" ino=12512 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_passwd_agent_exec_t:s0 tclass=file permissive=1
+[ 2933.910174] type=1400 audit(2936.369:263): avc: denied { getattr } for pid=8301 comm="ls" path="/su.shadow" dev="ubifs" ino=7281 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:su_exec_t:s0 tclass=file permissive=1
+[ 2933.912037] type=1400 audit(2936.379:264): avc: denied { getattr } for pid=8301 comm="ls" path="/login.shadow" dev="ubifs" ino=7373 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:login_exec_t:s0 tclass=file permissive=1
+[ 2933.915278] type=1400 audit(2936.379:265): avc: denied { getattr } for pid=8301 comm="ls" path="/arping" dev="ubifs" ino=7485 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:netutils_exec_t:s0 tclass=file permissive=1
+[ 2933.927266] type=1400 audit(2936.389:266): avc: denied { getattr } for pid=8301 comm="ls" path="/ping.iputils" dev="ubifs" ino=12506 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ping_exec_t:s0 tclass=file permissive=1
+[ 2933.927776] type=1400 audit(2936.389:267): avc: denied { getattr } for pid=8301 comm="ls" path="/bash.bash" dev="ubifs" ino=12490 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[ 2933.961684] type=1400 audit(2936.429:268): avc: denied { getattr } for pid=8301 comm="ls" path="/lib/busybox/bin/dmesg" dev="ubifs" ino=2137 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dmesg_exec_t:s0 tclass=file permissive=1
+[ 2988.279884] type=1400 audit(2990.739:270): avc: denied { getattr } for pid=8415 comm="ls" path="/etc/data" dev="ubifs" ino=5578 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=dir permissive=1
+[ 2988.330969] type=1400 audit(2990.799:271): avc: denied { getattr } for pid=8415 comm="ls" path="/etc/adb_devid" dev="ubifs" ino=89 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:adbd_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[ 2988.353819] type=1400 audit(2990.819:272): avc: denied { getattr } for pid=8415 comm="ls" path="/etc/data/dnsmasq.conf" dev="ubifs" ino=137 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[ 3106.341658] type=1400 audit(3108.799:273): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/hdparm" dev="ubifs" ino=2297 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:fsadm_exec_t:s0 tclass=file permissive=1
+[ 3106.351158] type=1400 audit(3108.819:274): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd/systemd" dev="ubifs" ino=12626 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:init_exec_t:s0 tclass=file permissive=1
+[ 3106.360391] type=1400 audit(3108.819:275): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/syslogd" dev="ubifs" ino=2225 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:syslogd_exec_t:s0 tclass=file permissive=1
+[ 3106.417062] type=1400 audit(3108.879:276): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/hwclock" dev="ubifs" ino=2273 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:hwclock_exec_t:s0 tclass=file permissive=1
+[ 3106.417501] type=1400 audit(3108.879:277): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[ 3106.444234] type=1400 audit(3108.909:278): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/klogd" dev="ubifs" ino=2243 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:klogd_exec_t:s0 tclass=file permissive=1
+[ 3106.458644] type=1400 audit(3108.919:279): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd/systemd-udevd" dev="ubifs" ino=12636 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:udev_exec_t:s0 tclass=file permissive=1
+[ 3231.442720] type=1400 audit(3233.909:280): avc: denied { read } for pid=8930 comm="cat" name="build.prop" dev="ubifs" ino=119 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:leprop_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[ 3231.448304] type=1400 audit(3233.909:281): avc: denied { open } for pid=8930 comm="cat" path="/etc/build.prop" dev="ubifs" ino=119 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:leprop_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[ 3272.999305] type=1400 audit(3275.459:282): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/data/dnsmasq.conf" dev="ubifs" ino=137 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[ 4012.990518] type=1400 audit(4015.459:283): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/qti" dev="ubifs" ino=12838 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qtether_exec_t:s0 tclass=file permissive=1
+[ 4013.008447] type=1400 audit(4015.469:284): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/ssh.openssh" dev="ubifs" ino=12860 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ssh_exec_t:s0 tclass=file permissive=1
+[ 4013.029515] type=1400 audit(4015.489:285): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/setprop" dev="ubifs" ino=4486 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:setprop_exec_t:s0 tclass=file permissive=1
+[ 4013.041937] type=1400 audit(4015.509:286): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/PktRspTest" dev="ubifs" ino=4434 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:diag_exec_t:s0 tclass=file permissive=1
+[ 4013.051593] type=1400 audit(4015.519:287): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/systemd-run" dev="ubifs" ino=12870 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_run_exec_t:s0 tclass=file permissive=1
+[ 4013.056996] type=1400 audit(4015.519:288): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/adpl" dev="ubifs" ino=12704 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dataadpl_exec_t:s0 tclass=file permissive=1
+[ 4013.153938] type=1400 audit(4015.619:289): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/netmgrd" dev="ubifs" ino=12780 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qnetmgrd_exec_t:s0 tclass=file permissive=1
+[ 4013.158068] type=1400 audit(4015.619:290): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/usr/bin/traceroute6" dev="ubifs" ino=1842 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:traceroute_exec_t:s0 tclass=file permissive=1
+[ 4013.165330] type=1400 audit(4015.629:291): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/systemd-detect-virt" dev="ubifs" ino=4518 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_detect_virt_exec_t:s0 tclass=file permissive=1
+[ 4013.175902] type=1400 audit(4015.639:292): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/thermal-engine" dev="ubifs" ino=12874 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:thermal-engine_exec_t:s0 tclass=file permissive=1
+[ 4013.471929] audit: audit_lost=9 audit_rate_limit=20 audit_backlog_limit=64
+[ 4013.471943] audit: rate limit exceeded
+[ 4335.202172] type=1400 audit(4337.669:333): avc: denied { read } for pid=11244 comm="cat" name="passwd" dev="ubifs" ino=1904 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:passwd_exec_t:s0 tclass=file permissive=1
+[ 7361.573274] type=1400 audit(7364.039:334): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/data" dev="ubifs" ino=5578 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=dir permissive=1
+[ 7361.582666] type=1400 audit(7364.039:335): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/build.prop" dev="ubifs" ino=119 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:leprop_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[ 7425.985042] type=1400 audit(7428.449:336): avc: denied { execute } for pid=17746 comm="sh" name="xtables-multi" dev="ubifs" ino=5259 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:iptables_exec_t:s0 tclass=file permissive=1
+[ 7426.007765] type=1400 audit(7428.459:337): avc: denied { getattr } for pid=17746 comm="iptables" path="/lib" dev="overlay" ino=10825 scontext=root:sysadm_r:iptables_t:s0 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[ 8192.969389] type=1400 audit(8195.429:338): avc: denied { getattr } for pid=2652 comm="sh" path="/WEBSERVER" dev="ubifs" ino=12076 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=dir permissive=1
+[ 8192.977750] type=1400 audit(8195.429:339): avc: denied { getattr } for pid=2652 comm="sh" path="/systemrw" dev="ubifs" ino=1 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:system_data_t:s0 tclass=dir permissive=1
+[ 8244.293535] type=1400 audit(8246.759:340): avc: denied { read } for pid=19495 comm="cat" name="shadow" dev="ubifs" ino=115 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+[ 8244.304286] type=1400 audit(8246.759:341): avc: denied { open } for pid=19495 comm="cat" path="/etc/shadow" dev="ubifs" ino=115 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=1
+[ 8352.734363] type=1400 audit(8355.199:342): avc: denied { getattr } for pid=2652 comm="sh" path="/sbin/unix_update" dev="ubifs" ino=5219 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:updpwd_exec_t:s0 tclass=file permissive=1
+[ 8352.745109] type=1400 audit(8355.199:343): avc: denied { getattr } for pid=2652 comm="sh" path="/sbin/unix_chkpwd" dev="ubifs" ino=5105 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:chkpwd_exec_t:s0 tclass=file permissive=1
+[12200.547795] type=1400 audit(12203.009:344): avc: denied { getattr } for pid=2652 comm="sh" path="/su.shadow" dev="ubifs" ino=7281 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:su_exec_t:s0 tclass=file permissive=1
+[12200.554297] type=1400 audit(12203.019:345): avc: denied { getattr } for pid=2652 comm="sh" path="/ping.iputils" dev="ubifs" ino=12506 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ping_exec_t:s0 tclass=file permissive=1
+[12200.558144] type=1400 audit(12203.019:346): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/bin/hostname" dev="ubifs" ino=2095 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:hostname_exec_t:s0 tclass=file permissive=1
+[12200.560751] type=1400 audit(12203.019:347): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd-tmpfiles" dev="ubifs" ino=7407 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_tmpfiles_exec_t:s0 tclass=file permissive=1
+[12200.560981] type=1400 audit(12203.019:348): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/bin/dmesg" dev="ubifs" ino=2137 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dmesg_exec_t:s0 tclass=file permissive=1
+[12200.561125] type=1400 audit(12203.019:349): avc: denied { getattr } for pid=2652 comm="sh" path="/login.shadow" dev="ubifs" ino=7373 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:login_exec_t:s0 tclass=file permissive=1
+[12200.561312] type=1400 audit(12203.019:350): avc: denied { getattr } for pid=2652 comm="sh" path="/kmod" dev="ubifs" ino=12502 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:kmod_exec_t:s0 tclass=file permissive=1
+[12200.561446] type=1400 audit(12203.019:351): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd-tty-ask-password-agent" dev="ubifs" ino=12512 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_passwd_agent_exec_t:s0 tclass=file permissive=1
+[12200.561562] type=1400 audit(12203.019:352): avc: denied { getattr } for pid=2652 comm="sh" path="/arping" dev="ubifs" ino=7485 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:netutils_exec_t:s0 tclass=file permissive=1
+[12225.113091] type=1400 audit(12227.579:353): avc: denied { getattr } for pid=2652 comm="sh" path="/data" dev="ubifs" ino=1 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[12231.834216] type=1400 audit(12234.299:354): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/hdparm" dev="ubifs" ino=2297 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:fsadm_exec_t:s0 tclass=file permissive=1
+[12231.839562] type=1400 audit(12234.299:355): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd/systemd" dev="ubifs" ino=12626 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:init_exec_t:s0 tclass=file permissive=1
+[12231.840043] type=1400 audit(12234.299:356): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/syslogd" dev="ubifs" ino=2225 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:syslogd_exec_t:s0 tclass=file permissive=1
+[12231.852379] type=1400 audit(12234.309:357): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/hwclock" dev="ubifs" ino=2273 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:hwclock_exec_t:s0 tclass=file permissive=1
+[12414.905532] type=1400 audit(12417.369:358): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/adb_devid" dev="ubifs" ino=89 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:adbd_system_data_t:s15:c0.c1023 tclass=file permissive=1
+[12454.054886] type=1400 audit(12456.519:359): avc: denied { getattr } for pid=2652 comm="sh" path="/systemd/systemd-udevd" dev="ubifs" ino=12636 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:udev_exec_t:s0 tclass=file permissive=1
+[13517.409819] type=1400 audit(13519.869:360): avc: denied { search } for pid=2652 comm="sh" name="WEBSERVER" dev="ubifs" ino=12076 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=dir permissive=1
+[13518.662320] type=1400 audit(13521.129:361): avc: denied { read } for pid=30559 comm="ls" name="WEBSERVER" dev="ubifs" ino=12076 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=dir permissive=1
+[13518.667014] type=1400 audit(13521.129:362): avc: denied { open } for pid=30559 comm="ls" path="/WEBSERVER" dev="ubifs" ino=12076 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=dir permissive=1
+[13521.865246] type=1400 audit(13524.329:363): avc: denied { getattr } for pid=30566 comm="ls" path="/WEBSERVER/www/package.json" dev="ubifs" ino=12342 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=file permissive=1
+[16457.256574] type=1400 audit(16459.719:364): avc: denied { read } for pid=4550 comm="cat" name="09_firewall_setting.html" dev="ubifs" ino=12359 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=file permissive=1
+[16457.280302] type=1400 audit(16459.719:365): avc: denied { open } for pid=4550 comm="cat" path="/WEBSERVER/www/mifi_web/09_firewall_setting.html" dev="ubifs" ino=12359 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:webserver_t:s0 tclass=file permissive=1
+[16886.816981] type=1400 audit(16889.279:366): avc: denied { getattr } for pid=1953 comm="lighttpd" path="/oem/www" dev="ubifs" ino=92 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[16886.831671] type=1400 audit(16889.279:367): avc: denied { getattr } for pid=1953 comm="lighttpd" path="/oem/www/index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[16886.832270] type=1400 audit(16889.279:368): avc: denied { read } for pid=1953 comm="lighttpd" name="index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[16886.832420] type=1400 audit(16889.279:369): avc: denied { open } for pid=1953 comm="lighttpd" path="/oem/www/index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[16887.058958] type=1400 audit(16889.519:370): avc: denied { read } for pid=1953 comm="lighttpd" name="cgi-bin" dev="ubifs" ino=99 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[16887.063591] type=1400 audit(16889.519:371): avc: denied { open } for pid=1953 comm="lighttpd" path="/oem/www/cgi-bin" dev="ubifs" ino=99 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[16887.073517] type=1400 audit(16889.529:372): avc: denied { execute } for pid=5448 comm="lighttpd" name="qcmap_web_cgi" dev="ubifs" ino=102 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[16887.074044] type=1400 audit(16889.529:373): avc: denied { execute_no_trans } for pid=5448 comm="lighttpd" path="/oem/www/cgi-bin/qcmap_web_cgi" dev="ubifs" ino=102 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[16887.390231] type=1400 audit(16889.849:374): avc: denied { read } for pid=5459 comm="cat" name="data_storage.xml" dev="ubifs" ino=384 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[16887.395069] type=1400 audit(16889.859:375): avc: denied { open } for pid=5459 comm="cat" path="/data/misc/data_storage.xml" dev="ubifs" ino=384 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[16993.219786] type=1400 audit(16995.679:376): avc: denied { write } for pid=5722 comm="qcmap_web_cgi" name="www" dev="devtmpfs" ino=11587 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=dir permissive=1
+[16993.221010] type=1400 audit(16995.679:377): avc: denied { add_name } for pid=5722 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=dir permissive=1
+[16993.221137] type=1400 audit(16995.679:378): avc: denied { create } for pid=5722 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[16993.227365] type=1400 audit(16995.689:379): avc: denied { getattr } for pid=5725 comm="chmod" path="/dev/socket/data/www/qcmap_cgi_webclient_file" dev="devtmpfs" ino=42326 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[16993.235075] type=1400 audit(16995.689:380): avc: denied { setattr } for pid=5725 comm="chmod" name="qcmap_cgi_webclient_file" dev="devtmpfs" ino=42326 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[16993.235258] type=1400 audit(16995.689:381): avc: denied { write } for pid=5722 comm="qcmap_web_cgi" name="qcmap_webclient_cgi_file" dev="devtmpfs" ino=24262 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[16993.239843] type=1400 audit(16995.689:382): avc: denied { sendto } for pid=5722 comm="qcmap_web_cgi" path="/dev/socket/data/www/qcmap_webclient_cgi_file" scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tclass=unix_dgram_socket permissive=1
+[16993.240017] type=1400 audit(16995.699:383): avc: denied { search } for pid=1379 comm="QCMAP_Web_CLIEN" name="www" dev="ubifs" ino=66 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:httpd_data_t:s0 tclass=dir permissive=1
+[16993.240527] type=1400 audit(16995.699:384): avc: denied { read } for pid=1379 comm="QCMAP_Web_CLIEN" name="session_token.txt" dev="ubifs" ino=434 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:httpd_data_t:s0 tclass=file permissive=1
+[16993.240669] type=1400 audit(16995.699:385): avc: denied { open } for pid=1379 comm="QCMAP_Web_CLIEN" path="/data/www/session_token.txt" dev="ubifs" ino=434 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:httpd_data_t:s0 tclass=file permissive=1
+[17035.385166] type=1400 audit(17037.849:392): avc: denied { read } for pid=560 comm="QCMAP_Connectio" name="mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[17035.385409] type=1400 audit(17037.849:393): avc: denied { open } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[17035.385507] type=1400 audit(17037.849:394): avc: denied { getattr } for pid=560 comm="QCMAP_Connectio" path="/etc/data/mobileap_cfg.xml" dev="ubifs" ino=73 scontext=system_u:system_r:qcmap_cm_t:s0-s15:c0.c1023 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[17042.085246] type=1400 audit(17044.549:395): avc: denied { getattr } for pid=6010 comm="rm" path="/data/update_incr.zip" dev="ubifs" ino=416 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[17042.087404] type=1400 audit(17044.549:396): avc: denied { write } for pid=6010 comm="rm" name="update_incr.zip" dev="ubifs" ino=416 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[17042.087586] type=1400 audit(17044.549:397): avc: denied { write } for pid=6010 comm="rm" name="/" dev="ubifs" ino=1 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[17042.087682] type=1400 audit(17044.549:398): avc: denied { remove_name } for pid=6010 comm="rm" name="update_incr.zip" dev="ubifs" ino=416 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[17042.087763] type=1400 audit(17044.549:399): avc: denied { unlink } for pid=6010 comm="rm" name="update_incr.zip" dev="ubifs" ino=416 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[17042.094752] type=1400 audit(17044.559:400): avc: denied { add_name } for pid=6011 comm="touch" name="update_incr.zip" scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[17042.100527] type=1400 audit(17044.559:401): avc: denied { create } for pid=6011 comm="touch" name="update_incr.zip" scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[17042.100711] type=1400 audit(17044.559:402): avc: denied { read open } for pid=6011 comm="touch" path="/data/update_incr.zip" dev="ubifs" ino=436 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[17042.104102] type=1400 audit(17044.569:403): avc: denied { setattr } for pid=6012 comm="chmod" name="update_incr.zip" dev="ubifs" ino=436 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=file permissive=1
+[18480.236491] type=1400 audit(18482.699:404): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/sbin/ifconfig" dev="ubifs" ino=2195 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ifconfig_exec_t:s0 tclass=file permissive=1
+[18492.859533] type=1400 audit(18495.319:405): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/bin/sh" dev="ubifs" ino=2181 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:shell_exec_t:s0 tclass=file permissive=1
+[18508.338147] type=1400 audit(18510.799:406): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/qti" dev="ubifs" ino=12838 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qtether_exec_t:s0 tclass=file permissive=1
+[18508.346725] type=1400 audit(18510.809:407): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/PktRspTest" dev="ubifs" ino=4434 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:diag_exec_t:s0 tclass=file permissive=1
+[18508.355350] type=1400 audit(18510.809:408): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/adpl" dev="ubifs" ino=12704 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dataadpl_exec_t:s0 tclass=file permissive=1
+[18508.358143] type=1400 audit(18510.819:409): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/thermal-engine" dev="ubifs" ino=12874 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:thermal-engine_exec_t:s0 tclass=file permissive=1
+[18508.358305] type=1400 audit(18510.819:410): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/qmi_shutdown_modem" dev="ubifs" ino=12798 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qmi_shutdown_modem_exec_t:s0 tclass=file permissive=1
+[18508.358402] type=1400 audit(18510.819:411): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/subsystem_ramdump" dev="ubifs" ino=4899 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ss-ramdump_exec_t:s0 tclass=file permissive=1
+[18508.358485] type=1400 audit(18510.819:412): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/ssreq_server" dev="ubifs" ino=12864 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:ssreq_server_exec_t:s0 tclass=file permissive=1
+[18508.358564] type=1400 audit(18510.819:413): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/chg-policy" dev="ubifs" ino=4736 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:chg-policy_exec_t:s0 tclass=file permissive=1
+[18508.358644] type=1400 audit(18510.819:414): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/hal_play_test" dev="ubifs" ino=12748 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:hal_play_test_exec_t:s0 tclass=file permissive=1
+[18508.358719] type=1400 audit(18510.819:415): avc: denied { getattr } for pid=2652 comm="sh" path="/bin/systemd-stdio-bridge" dev="ubifs" ino=4426 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:systemd_stdio_bridge_exec_t:s0 tclass=file permissive=1
+[18508.363200] audit: audit_lost=30 audit_rate_limit=20 audit_backlog_limit=64
+[18508.363213] audit: rate limit exceeded
+[18551.775593] type=1400 audit(18554.239:444): avc: denied { read } for pid=9388 comm="hexdump" name="qmi_ip_multiclient" dev="ubifs" ino=12796 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:qmi_ip_multiclient_exec_t:s0 tclass=file permissive=1
+[19037.916567] type=1400 audit(19040.379:445): avc: denied { read } for pid=2652 comm="sh" name="data" dev="ubifs" ino=5578 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=dir permissive=1
+[19037.917075] type=1400 audit(19040.379:446): avc: denied { open } for pid=2652 comm="sh" path="/etc/data" dev="ubifs" ino=5578 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=dir permissive=1
+[19037.917433] type=1400 audit(19040.379:447): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/data/wlan_cfg.xml" dev="ubifs" ino=83 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:system_data_t:s0 tclass=file permissive=1
+[19037.917751] type=1400 audit(19040.379:448): avc: denied { getattr } for pid=2652 comm="sh" path="/etc/data/factory_qti_socksv5_conf.xml" dev="ubifs" ino=151 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[19509.155554] type=1400 audit(19511.619:449): avc: denied { read } for pid=11398 comm="cat" name="qmi_ip_cfg.xml" dev="ubifs" ino=167 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[19509.164151] type=1400 audit(19511.619:450): avc: denied { open } for pid=11398 comm="cat" path="/etc/data/qmi_ip_cfg.xml" dev="ubifs" ino=167 scontext=root:sysadm_r:sysadm_t:s0 tcontext=system_u:object_r:qcmap_etc_data_t:s0 tclass=file permissive=1
+[21574.182470] type=1400 audit(21576.649:451): avc: denied { read } for pid=15731 comm="hexdump" name="systemd" dev="ubifs" ino=12626 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:init_exec_t:s0 tclass=file permissive=1
+[21715.972019] type=1400 audit(21718.439:452): avc: denied { getattr } for pid=1953 comm="lighttpd" path="/oem/www" dev="ubifs" ino=92 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[21715.974364] type=1400 audit(21718.439:453): avc: denied { getattr } for pid=1953 comm="lighttpd" path="/oem/www/index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[21715.974634] type=1400 audit(21718.439:454): avc: denied { read } for pid=1953 comm="lighttpd" name="index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[21715.974770] type=1400 audit(21718.439:455): avc: denied { open } for pid=1953 comm="lighttpd" path="/oem/www/index.html" dev="ubifs" ino=251 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[21716.172265] type=1400 audit(21718.639:456): avc: denied { read } for pid=1953 comm="lighttpd" name="cgi-bin" dev="ubifs" ino=99 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[21716.175550] type=1400 audit(21718.639:457): avc: denied { open } for pid=1953 comm="lighttpd" path="/oem/www/cgi-bin" dev="ubifs" ino=99 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=dir permissive=1
+[21716.181624] type=1400 audit(21718.639:458): avc: denied { execute } for pid=16028 comm="lighttpd" name="qcmap_web_cgi" dev="ubifs" ino=102 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[21716.185143] type=1400 audit(21718.639:459): avc: denied { execute_no_trans } for pid=16028 comm="lighttpd" path="/oem/www/cgi-bin/qcmap_web_cgi" dev="ubifs" ino=102 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:unlabeled_t:s0 tclass=file permissive=1
+[21931.465579] type=1400 audit(21933.929:460): avc: denied { write } for pid=16560 comm="qcmap_web_cgi" name="www" dev="devtmpfs" ino=11587 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=dir permissive=1
+[21931.466202] type=1400 audit(21933.929:461): avc: denied { remove_name } for pid=16560 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" dev="devtmpfs" ino=43552 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=dir permissive=1
+[21931.466321] type=1400 audit(21933.929:462): avc: denied { unlink } for pid=16560 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" dev="devtmpfs" ino=43552 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[21931.466404] type=1400 audit(21933.929:463): avc: denied { add_name } for pid=16560 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=dir permissive=1
+[21931.472490] type=1400 audit(21933.929:464): avc: denied { create } for pid=16560 comm="qcmap_web_cgi" name="qcmap_cgi_webclient_file" scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[21931.476042] type=1400 audit(21933.939:465): avc: denied { getattr } for pid=16564 comm="chmod" path="/dev/socket/data/www/qcmap_cgi_webclient_file" dev="devtmpfs" ino=47151 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[21931.476475] type=1400 audit(21933.939:466): avc: denied { setattr } for pid=16564 comm="chmod" name="qcmap_cgi_webclient_file" dev="devtmpfs" ino=47151 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[21931.478679] type=1400 audit(21933.939:467): avc: denied { write } for pid=16560 comm="qcmap_web_cgi" name="qcmap_webclient_cgi_file" dev="devtmpfs" ino=24262 scontext=system_u:system_r:httpd_t:s0-s15:c0.c1023 tcontext=system_u:object_r:webserver_socket_device_t:s0 tclass=sock_file permissive=1
+[21931.478977] type=1400 audit(21933.939:468): avc: denied { read } for pid=1379 comm="QCMAP_Web_CLIEN" name="session_token.txt" dev="ubifs" ino=434 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:httpd_data_t:s0 tclass=file permissive=1
+[21931.479094] type=1400 audit(21933.939:469): avc: denied { open } for pid=1379 comm="QCMAP_Web_CLIEN" path="/data/www/session_token.txt" dev="ubifs" ino=434 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:httpd_data_t:s0 tclass=file permissive=1
+[22137.499365] type=1400 audit(22139.959:471): avc: denied { write } for pid=17366 comm="rm" name="/" dev="ubifs" ino=1 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[22137.502311] type=1400 audit(22139.959:472): avc: denied { remove_name } for pid=17366 comm="rm" name="update_incr.zip" dev="ubifs" ino=438 scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[22137.508837] type=1400 audit(22139.969:473): avc: denied { add_name } for pid=17367 comm="touch" name="update_incr.zip" scontext=system_u:system_r:initrc_t:s0-s15:c0.c1023 tcontext=system_u:object_r:data_t:s0 tclass=dir permissive=1
+[33759.516551] type=1400 audit(33761.979:474): avc: denied { getattr } for pid=2652 comm="sh" path="/lib/busybox/bin/dmesg" dev="ubifs" ino=2137 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dmesg_exec_t:s0 tclass=file permissive=1
+[33759.523387] type=1400 audit(33761.989:475): avc: denied { execute } for pid=9834 comm="sh" name="dmesg" dev="ubifs" ino=2137 scontext=system_u:system_r:mount_t:s0-s15:c0.c1023 tcontext=system_u:object_r:dmesg_exec_t:s0 tclass=file permissive=1
+/ # 
+
+
