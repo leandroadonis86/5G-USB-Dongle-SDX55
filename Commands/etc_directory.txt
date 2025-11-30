@@ -1,0 +1,107 @@
+~ # ls -l /etc
+total 372
+drwxr-xr-x    3 root     root           224 Jan  9  2023 acdbdata
+-rw-r--r--    1 root     root             9 Jan  1 00:00 adb_devid
+-rw-r--r--    1 root     root          5934 Jan  9  2023 apdr.conf
+-rwxr-xr-x    1 root     root          2938 Jan  9  2023 audio_platform_info_extcodec.xml
+drwxr-xr-x    3 root     root           536 Jan  9  2023 avahi
+drwxr-xr-x    2 root     root           608 Jan  9  2023 bluetooth
+-rw-r--r--    1 root     root             0 Jan  9  2023 build.prop
+-rw-r--r--    1 root     root          4342 Jan  9  2023 busybox.links.nosuid
+-rw-r--r--    1 root     root           153 Jan  9  2023 busybox.links.suid
+drwxr-xr-x    3 root     root           232 Jan  9  2023 ca-certificates
+-rw-r--r--    1 root     root          5340 Jan  9  2023 ca-certificates.conf
+-rw-r--r--    1 root     root         30438 Jan  9  2023 cacert_location.pem
+-rw-r--r--    1 root     root           597 Jan  9  2023 cei_check_passwd.sh
+drwxr-xr-x    2 root     root           224 Jan  9  2023 chatscripts
+-rw-r--r--    1 root     root          1907 Jan  9  2023 cld-hostapd-wlan0.sh
+-rw-r--r--    1 root     root          1907 Jan  9  2023 cld-hostapd-wlan1.sh
+-rw-r--r--    1 root     root          1912 Jan  9  2023 cld-hostapd-wlan2.sh
+drwxr-xr-x    9 root     root          2960 Jan  9  2023 data
+drwxr-xr-x    3 root     root           376 Jan  9  2023 dbus-1
+drwxr-xr-x    3 root     root           432 Jan  9  2023 default
+drwxr-xr-x    2 root     root           160 Jan  9  2023 depmod.d
+-rwxr-xr-x    1 root     root            77 Jan  9  2023 disconnect
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 dnsmasq.conf -> ..//etc/data/dnsmasq.conf
+drwxr-xr-x    2 root     root           160 Jan  9  2023 dnsmasq.d
+drwxr-xr-x    2 root     root           232 Jan  9  2023 ebtables
+-rw-r--r--    1 root     root            97 Jan  9  2023 environment
+-rw-r--r--    1 root     root          1317 Jan  9  2023 ethertypes
+-rw-r--r--    1 root     root            38 Jan  9  2023 filesystems
+drwxr-xr-x    3 root     root           224 Jan  9  2023 firmware
+-rw-r--r--    1 root     root          2744 Jan  9  2023 flp.conf
+-rwxr-xr-x    1 root     root          3609 Jan  9  2023 ftm_test_config
+-rw-r--r--    1 root     root         10003 Jan  9  2023 gps.conf
+-rw-r--r--    1 root     root          1334 Jan  9  2023 group
+-r--------    1 root     root          1115 Jan  9  2023 gshadow
+-rw-r--r--    1 root     root            26 Jan  9  2023 host.conf
+-rw-r--r--    1 root     root            11 Jan  9  2023 hostname
+-rw-r--r--    1 root     root           237 Jan  9  2023 hosts
+drwxr-x---    2 root     root           376 Jan  9  2023 init.d
+drwxr-xr-x    2 root     root          3072 Jan  9  2023 initscripts
+-r-xr--r--    1 root     root           490 Aug  1  2008 install-recovery.sh
+-rw-r--r--    1 root     root            16 Aug  1  2008 issue
+-rw-r--r--    1 root     root            13 Aug  1  2008 issue.net
+-rw-r--r--    1 root     root          6737 Jan  9  2023 izat.conf
+-rwxr-xr-x    1 root     root          2706 Jan  9  2023 launch_adbd
+-rw-r--r--    1 root     root            33 Jan  9  2023 ld.so.conf
+-rw-r-----    1 root     root           191 Jan  9  2023 libaudit.conf
+drwxr-xr-x    2 root     root           288 Jan  9  2023 libnl
+-rwxr-xr-x    1 root     root         13950 Jan  9  2023 lighttpd.conf
+drwxr-xr-x    2 root     root           160 Jan  9  2023 lighttpd.d
+-rw-r--r--    1 root     root         11046 Jan  9  2023 login.defs
+-rw-r--r--    1 root     root           727 Jan  9  2023 lowi.conf
+-r--r--r--    1 root     root            33 Dec 10  2024 machine-id
+drwxr-xr-x    3 root     root           224 Jan  9  2023 misc
+-rwxr-xr-x    1 root     root         15096 Jan  9  2023 mixer_paths_i2s.xml
+drwxr-xr-x    2 root     root           304 Jan  9  2023 modprobe.d
+-rw-r--r--    1 root     root             0 Jan  9  2023 motd
+lrwxrwxrwx    1 root     root            12 Jan  9  2023 mtab -> /proc/mounts
+-rw-r--r--    1 root     root           767 Jan  9  2023 netconfig
+-rwxr-xr-x    1 root     root          1087 Jan  9  2023 nfs-utils.conf
+-rwxr-xr-x    1 root     root          3605 Jan  9  2023 nfsmount.conf
+-rw-r--r--    1 root     root           509 Jan  9  2023 nsswitch.conf
+drwxr-xr-x    2 root     root           304 Jan  9  2023 opkg
+lrwxrwxrwx    1 root     root            21 Jan  9  2023 os-release -> ../usr/lib/os-release
+drwxr-xr-x    2 root     root           864 Jan  9  2023 pam.d
+-rw-------    1 root     root          1897 Jan  9  2023 passwd
+-rw-r--r--    1 root     root          5108 Jan  9  2023 pimd.conf
+drwxr-xr-x    5 root     root           832 Jan  9  2023 ppp
+-rw-r--r--    1 root     root           984 Jan  9  2023 profile
+-rw-r--r--    1 root     root          2932 Jan  9  2023 protocols
+-rw-r--r--    1 root     root           136 Jan  9  2023 qapi.conf
+-rwxr-xr-x    1 root     root           458 Jan  9  2023 qmi_ip_cfg.xml
+drwxr-xr-x    3 root     root           224 Jan  9  2023 rc.d
+lrwxrwxrwx    1 root     root            34 Jan  9  2023 resolv-conf.systemd -> ../run/systemd/resolve/resolv.conf
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 resolv.conf -> /etc/resolv-conf.systemd
+-rw-r--r--    1 root     root           895 Jan  9  2023 rpc
+-rwxr-xr-x    1 root     root            58 Jan  9  2023 rpcbind.conf
+-r--r--r--    1 root     root          7124 Jan  9  2023 sec_config
+-r--------    1 root     root          1848 Jan  9  2023 securetty
+drwxr-xr-x    4 root     root           880 Jan  9  2023 security
+drwxr-xr-x    3 root     root           360 Jan  9  2023 selinux
+-rw-r--r--    1 root     root         19199 Jan  9  2023 services
+-rw-r--r--    1 root     root           216 Jan  9  2023 sestatus.conf
+-rw-------    1 root     root          1312 Jan  9  2023 shadow
+-rw-r--r--    1 root     root            52 Jan  9  2023 shells
+drwxr-xr-x    2 root     root           296 Jan  9  2023 skel
+drwxr-xr-x    2 root     root           448 Jan  9  2023 ssh
+drwxr-xr-x    4 root     root           360 Jan  9  2023 ssl
+-rwxr-xr-x    1 root     root          4460 Jan  9  2023 start_pcie
+-rw-r--r--    1 root     root           306 Jan  9  2023 sysctl.conf
+drwxr-xr-x    2 root     root           232 Jan  9  2023 sysctl.d
+-rw-r--r--    1 root     root            69 Jan  9  2023 syslog.conf
+drwxr-xr-x    4 root     root           576 Jan  9  2023 systemd
+drwxr-xr-x    9 root     root           608 Jan  9  2023 terminfo
+-rw-r--r--    1 root     root            84 Jan  9  2023 thermal-engine.conf
+-rw-r--r--    1 root     root            15 Aug  1  2008 timestamp
+-rw-r--r--    1 root     root         10146 Jan  9  2023 tinyproxy.conf
+drwxr-xr-x    2 root     root          1520 Jan  9  2023 tmpfiles.d
+drwxr-xr-x    4 root     root           360 Jan  9  2023 udev
+drwxr-xr-x    2 root     root           304 Jan  9  2023 udhcpc.d
+drwxr-xr-x    2 root     root           304 Jan  9  2023 usb
+-rw-r--r--    1 root     root            13 Aug  1  2008 version
+drwxr-xr-x    3 root     root           224 Jan  9  2023 xdg
+-rw-r--r--    1 root     root          3517 Jan  9  2023 xtwifi.conf
+
+
