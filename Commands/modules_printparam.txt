@@ -1,0 +1,88 @@
+~ # cat /proc/modules | cut -f 1 -d " " | while read module; do \
+>  echo "Module: $module"; \
+>  if [ -d "/sys/module/$module/parameters" ]; then \
+>   ls /sys/module/$module/parameters/ | while read parameter; do \
+>    echo -n "Parameter: $parameter --> "; \
+>    cat /sys/module/$module/parameters/$parameter; \
+>   done; \
+>  fi; \
+>  echo; \
+> done
+Module: machine_dlkm
+
+Module: wsa881x_dlkm
+Parameter: wsa881x_ocp_poll_timer_sec --> 60
+
+Module: wcd934x_dlkm
+Parameter: dig_core_collapse_enable --> 1
+Parameter: dig_core_collapse_timer --> 5
+Parameter: spk_anc_en_delay --> 550
+Parameter: tx_unmute_delay --> 40
+
+Module: swr_ctrl_dlkm
+Parameter: auto_suspend_timer --> 3000
+
+Module: wcd9xxx_dlkm
+
+Module: mbhc_dlkm
+
+Module: wcd_core_dlkm
+
+Module: stub_dlkm
+
+Module: swr_dlkm
+
+Module: pinctrl_wcd_dlkm
+
+Module: native_dlkm
+
+Module: platform_dlkm
+
+Module: q6_dlkm
+
+Module: adsp_loader_dlkm
+
+Module: apr_dlkm
+
+Module: q6_notifier_dlkm
+
+Module: snd_hwdep
+
+Module: snd_soc_core
+
+Module: snd_compress
+
+Module: qcrypto
+
+Module: qcedevice
+
+Module: qce50
+
+Module: embms_kernel
+
+Module: bluetooth_power
+
+Module: r8125
+
+Module: aqc_ipa_offload
+
+Module: usb_f_uac1
+
+Module: u_audio
+
+Module: snd_pcm
+Parameter: maximum_substreams --> 4
+Parameter: preallocate_dma --> 1
+
+Module: snd_timer
+Parameter: timer_limit --> 1
+Parameter: timer_tstamp_monotonic --> 1
+
+Module: snd
+Parameter: cards_limit --> 1
+Parameter: major --> 116
+Parameter: slots --> (null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)
+
+Module: soundcore
+
+
