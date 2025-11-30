@@ -1,5 +1,5 @@
 # 5G-USB-Dongle-SDX55
-Fix, Debug, Access, Tools, Tests and more functionalities for this 5G USB Dongle equipped with Qualcomm SDX55 else known as VOS 5G.
+Fix, Debug, Access, Tools, Tests and more functionalities for this 5G USB Dongle equipped with Qualcomm SDX55 else known as APAL Tributo 5G, COMPAL 5G Dongle, Trincascadeinc VOS 5G.
 
 + Shell, Linux sdxprairie 4.14.117-perf #1 PREEMPT armv7l GNU/Linux
 + OS release, mdm 202412101203
