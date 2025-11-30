@@ -1,0 +1,4 @@
+~ # uname -a
+Linux sdxprairie 4.14.117-perf #1 PREEMPT Tue Dec 10 04:37:41 UTC 2024 armv7l GNU/Linux
+
+
