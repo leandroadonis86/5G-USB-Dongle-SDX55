@@ -1,0 +1,28 @@
+~ # ls -l /run
+total 24
+-rw-------    1 root     root             0 Jan  1 00:00 agetty.reload
+drwxr-xr-x    3 radio    radio          120 Jan  1 00:02 data
+drwxr-xr-x    2 root     root            60 Jan  1 00:00 dbus
+prw-------    1 root     root             0 Dec 10  2024 initctl
+drwxr-xr-x    3 root     root            60 Jan  1 00:00 lock
+drwxr-xr-x    2 root     root            40 Jan  1 00:00 log
+-rw-r--r--    1 root     root             4 Jan  1 00:00 logd.pid
+-r--r--r--    1 root     root            33 Dec 10  2024 machine-id
+drwxr-xr-x    2 radio    radio           40 Jan  1 00:00 mbim
+drwxr-xr-x    2 root     root            40 Dec 10  2024 mount
+-rw-r--r--    1 root     root            36 Jan  1 00:00 qcmap_cm_env.conf
+-rw-r--r--    1 root     root             0 Jan  1 00:00 rpc.statd.pid
+-r--r--r--    1 root     root             0 Jan  1 00:00 rpcbind.lock
+srw-rw-rw-    1 root     root             0 Jan  1 00:00 rpcbind.sock
+-rw-------    1 root     root             5 Jan  1 00:00 sm-notify.pid
+drwxr-xr-x    2 root     root           160 Jan  1 00:01 ssh
+drwxr-xr-x    2 root     root            40 Jan  1 00:00 sshd
+-rw-r--r--    1 root     root             5 Jan  1 00:00 syslogd.pid
+drwxr-xr-x   13 root     root           320 Jan  1 00:00 systemd
+drwxr-xr-x    2 nobody   inet            40 Jan  1 00:00 tinyproxy
+drwxr-xr-x    6 root     root           140 Jan  1 00:00 udev
+drwxr-xr-x    2 root     root            40 Jan  1 00:00 user
+-rw-rw-r--    1 root     utmp           768 Jan  1 00:04 utmp
+-rw-r--r--    1 root     root             0 Jan  1 00:00 xtables.lock
+
+
