@@ -1,0 +1,42 @@
+~ # ifconfig
+bridge0   Link encap:Ethernet  HWaddr 36:78:B1:99:63:69  
+          inet addr:192.168.225.1  Bcast:192.168.225.255  Mask:255.255.255.0
+          inet6 addr: fe80::78d9:acff:fe1f:2415/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:834 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:884 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:68914 (67.2 KiB)  TX bytes:131887 (128.7 KiB)
+
+ecm0      Link encap:Ethernet  HWaddr 12:5C:05:CE:19:33  
+          inet addr:169.254.3.1  Bcast:169.254.3.255  Mask:255.255.255.0
+          inet6 addr: fe80::105c:5ff:fece:1933/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:851 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:838 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:83226 (81.2 KiB)  TX bytes:126907 (123.9 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:140 (140.0 B)  TX bytes:140 (140.0 B)
+
+rmnet_ipa0 Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          UP RUNNING  MTU:9216  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+rndis0    Link encap:Ethernet  HWaddr 36:78:B1:96:60:66  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
