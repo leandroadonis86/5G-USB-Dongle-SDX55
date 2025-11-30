@@ -1,0 +1,13 @@
+~ # cat /proc/self/environ 
+USER=root
+MAIL=/var/mail/root
+SSH_CLIENT=192.168.225.30 43084 22
+SHLVL=1
+HOME=/home/root
+OLDPWD=/home/root
+SSH_TTY=/dev/pts/0
+LOGNAME=root
+TER~ # 
+
+
+
