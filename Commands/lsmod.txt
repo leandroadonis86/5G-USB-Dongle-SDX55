@@ -1,0 +1,35 @@
+~ # lsmod
+Module                  Size  Used by
+machine_dlkm           69632  0
+wsa881x_dlkm           45056  1 machine_dlkm
+wcd934x_dlkm          274432  1 machine_dlkm
+swr_ctrl_dlkm          24576  1 wcd934x_dlkm
+wcd9xxx_dlkm           57344  1 wcd934x_dlkm
+mbhc_dlkm              40960  1 wcd934x_dlkm
+wcd_core_dlkm         131072  4 wcd9xxx_dlkm,machine_dlkm,wsa881x_dlkm,wcd934x_dlkm
+stub_dlkm              16384  1
+swr_dlkm               24576  2 swr_ctrl_dlkm,wsa881x_dlkm
+pinctrl_wcd_dlkm       16384  0
+native_dlkm           114688  0
+platform_dlkm        2199552  33 native_dlkm
+q6_dlkm               921600  5 native_dlkm,wcd9xxx_dlkm,machine_dlkm,platform_dlkm,swr_ctrl_dlkm
+adsp_loader_dlkm       16384  0
+apr_dlkm              131072  4 q6_dlkm,platform_dlkm,adsp_loader_dlkm,wcd934x_dlkm
+q6_notifier_dlkm       16384  1 apr_dlkm
+snd_hwdep              16384  2 wcd9xxx_dlkm,platform_dlkm
+snd_soc_core          172032  7 wcd9xxx_dlkm,mbhc_dlkm,machine_dlkm,stub_dlkm,platform_dlkm,wsa881x_dlkm,wcd934x_dlkm
+snd_compress           20480  1 snd_soc_core
+qcrypto                65536  0
+qcedevice              40960  0
+qce50                  69632  2 qcrypto,qcedevice
+embms_kernel           16384  2
+bluetooth_power        16384  0
+r8125                 167936  0
+aqc_ipa_offload        81920  0
+usb_f_uac1             20480  2
+u_audio                16384  1 usb_f_uac1
+snd_pcm                94208  4 u_audio,platform_dlkm,snd_soc_core,wcd934x_dlkm
+snd_timer              32768  2 platform_dlkm,snd_pcm
+snd                    61440  11 snd_compress,mbhc_dlkm,snd_hwdep,machine_dlkm,snd_timer,u_audio,platform_dlkm,snd_soc_core,wsa881x_dlkm,snd_pcm,wcd934x_dlkm
+soundcore              16384  1 snd
+
