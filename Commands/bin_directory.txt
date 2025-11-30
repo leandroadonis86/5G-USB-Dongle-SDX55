@@ -1,0 +1,127 @@
+~ # ls -l /bin
+total 7328
+-rwxr-xr-x    1 root     root         18096 Jan  9  2023 arping
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 ash -> /usr/lib/busybox/bin/ash
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 base64 -> /usr/lib/busybox/bin/base64
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 bash -> /bin/bash.bash
+-rwxr-xr-x    1 root     root        817564 Jan  9  2023 bash.bash
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 busybox -> busybox.nosuid
+-rwxr-xr-x    1 root     root        874496 Jan  9  2023 busybox.nosuid
+-rwsr-xr-x    1 root     root         75468 Jan  9  2023 busybox.suid
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 cat -> /usr/lib/busybox/bin/cat
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 chattr -> /usr/lib/busybox/bin/chattr
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 chgrp -> /usr/lib/busybox/bin/chgrp
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 chmod -> /usr/lib/busybox/bin/chmod
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 chown -> /usr/lib/busybox/bin/chown
+-rwsr-xr-x    1 root     root         13956 Jan  9  2023 clockdiff
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 cp -> /bin/cp.coreutils
+-rwxr-xr-x    1 root     root         92000 Jan  9  2023 cp.coreutils
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 cpio -> /usr/lib/busybox/bin/cpio
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 cttyhack -> /usr/lib/busybox/bin/cttyhack
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 date -> /usr/lib/busybox/bin/date
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 dd -> /usr/lib/busybox/bin/dd
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 df -> /usr/lib/busybox/bin/df
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 dmesg -> /usr/lib/busybox/bin/dmesg
+lrwxrwxrwx    1 root     root            34 Jan  9  2023 dnsdomainname -> /usr/lib/busybox/bin/dnsdomainname
+-rwxr-xr-x    1 nobody   nogroup       4103 Jan  9  2023 dnsmasq_script.sh
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 dumpkmap -> /usr/lib/busybox/bin/dumpkmap
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 echo -> /usr/lib/busybox/bin/echo
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 ed -> /usr/lib/busybox/bin/ed
+lrwxrwxrwx    1 root     root            15 Jan  9  2023 egrep -> /bin/egrep.grep
+-rwxr-xr-x    1 root     root            28 Jan  9  2023 egrep.grep
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 false -> /usr/lib/busybox/bin/false
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 fdflush -> /usr/lib/busybox/bin/fdflush
+lrwxrwxrwx    1 root     root            15 Jan  9  2023 fgrep -> /bin/fgrep.grep
+-rwxr-xr-x    1 root     root            28 Jan  9  2023 fgrep.grep
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 fsync -> /usr/lib/busybox/bin/fsync
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 getopt -> /usr/lib/busybox/bin/getopt
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 grep -> /bin/grep.grep
+-rwxr-xr-x    1 root     root        173956 Jan  9  2023 grep.grep
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 gunzip -> /usr/lib/busybox/bin/gunzip
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 gzip -> /usr/lib/busybox/bin/gzip
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 hostname -> /usr/lib/busybox/bin/hostname
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 hush -> /usr/lib/busybox/bin/hush
+-rw-rw-rw-    1 root     root         18471 Jan  9  2023 iana_tzdb
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 ionice -> /usr/lib/busybox/bin/ionice
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 iostat -> /usr/lib/busybox/bin/iostat
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 ipcalc -> /usr/lib/busybox/bin/ipcalc
+-rwxr-xr-x    1 root     root         46736 Jan  9  2023 journalctl
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 kbd_mode -> /usr/lib/busybox/bin/kbd_mode
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 kill -> /usr/lib/busybox/bin/kill
+-rwxr-xr-x    1 root     root         91936 Jan  9  2023 kmod
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 ln -> /usr/lib/busybox/bin/ln
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 login -> /bin/login.shadow
+-rwxr-xr-x    1 root     root         31052 Jan  9  2023 login.shadow
+-rwxr-xr-x    1 root     root         34464 Jan  9  2023 loginctl
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 ls -> /usr/lib/busybox/bin/ls
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 lsattr -> /usr/lib/busybox/bin/lsattr
+lrwxrwxrwx    1 root     root            15 Jan  9  2023 lsmod -> /bin/lsmod.kmod
+lrwxrwxrwx    1 root     root             4 Jan  9  2023 lsmod.kmod -> kmod
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 lzop -> /usr/lib/busybox/bin/lzop
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 makemime -> /usr/lib/busybox/bin/makemime
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 mkdir -> /usr/lib/busybox/bin/mkdir
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 mknod -> /usr/lib/busybox/bin/mknod
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 mktemp -> /usr/lib/busybox/bin/mktemp
+lrwxrwxrwx    1 root     root            31 Jan  9  2023 modem-shutdown -> /etc/initscripts/modem-shutdown
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 more -> /usr/lib/busybox/bin/more
+lrwxrwxrwx    1 root     root            21 Jan  9  2023 mount -> /bin/mount.util-linux
+-rwsr-xr-x    1 root     root         30408 Jan  9  2023 mount.util-linux
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 mpstat -> /usr/lib/busybox/bin/mpstat
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 mt -> /usr/lib/busybox/bin/mt
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 mv -> /usr/lib/busybox/bin/mv
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 netstat -> /usr/lib/busybox/bin/netstat
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 nice -> /usr/lib/busybox/bin/nice
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 pidof -> /usr/lib/busybox/bin/pidof
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 ping -> /bin/ping.iputils
+-rwsr-xr-x    1 root     root         47312 Jan  9  2023 ping.iputils
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 ping6 -> /usr/lib/busybox/bin/ping6
+lrwxrwxrwx    1 root     root            34 Jan  9  2023 pipe_progress -> /usr/lib/busybox/bin/pipe_progress
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 printenv -> /usr/lib/busybox/bin/printenv
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 ps -> /usr/lib/busybox/bin/ps
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 pwd -> /usr/lib/busybox/bin/pwd
+-rwxr-xr-x    1 root     root         14036 Jan  9  2023 rarpd
+-rwxr-xr-x    1 root     root         18116 Jan  9  2023 rdisc
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 reformime -> /usr/lib/busybox/bin/reformime
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 rev -> /usr/lib/busybox/bin/rev
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 rm -> /usr/lib/busybox/bin/rm
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 rmdir -> /usr/lib/busybox/bin/rmdir
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 rpm -> /usr/lib/busybox/bin/rpm
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 run-parts -> /usr/lib/busybox/bin/run-parts
+lrwxrwxrwx    1 root     root            33 Jan  9  2023 scriptreplay -> /usr/lib/busybox/bin/scriptreplay
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 sed -> /usr/lib/busybox/bin/sed
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 setarch -> /usr/lib/busybox/bin/setarch
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 sh -> /usr/lib/busybox/bin/sh
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 sleep -> /usr/lib/busybox/bin/sleep
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 stat -> /usr/lib/busybox/bin/stat
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 stty -> /usr/lib/busybox/bin/stty
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 su -> /bin/su.shadow
+-rwsr-xr-x    1 root     root         27048 Jan  9  2023 su.shadow
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 sync -> /usr/lib/busybox/bin/sync
+-rwxr-xr-x    1 root     root        137096 Jan  9  2023 systemctl
+-rwxr-xr-x    1 root     root          9884 Jan  9  2023 systemd-ask-password
+-rwxr-xr-x    1 root     root          9864 Jan  9  2023 systemd-escape
+-rwxr-xr-x    1 root     root          9872 Jan  9  2023 systemd-inhibit
+-rwxr-xr-x    1 root     root         13972 Jan  9  2023 systemd-machine-id-setup
+-rwxr-xr-x    1 root     root          9872 Jan  9  2023 systemd-notify
+-rwxr-xr-x    1 root     root         34524 Jan  9  2023 systemd-sysusers
+-rwxr-xr-x    1 root     root         50900 Jan  9  2023 systemd-tmpfiles
+-rwxr-xr-x    1 root     root         22172 Jan  9  2023 systemd-tty-ask-password-agent
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 tar -> /usr/lib/busybox/bin/tar
+-rw-rw-r--    1 system   system           7 Dec 10  2024 test
+-rwxr-xr-x    1 root     root          9996 Jan  9  2023 tftpd
+-rw-rw-rw-    1 root     root       4211141 Jan  9  2023 timezone21.bin
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 touch -> /usr/lib/busybox/bin/touch
+-rwxr-xr-x    1 root     root         13964 Jan  9  2023 tracepath
+-rwsr-xr-x    1 root     root         13972 Jan  9  2023 traceroute6
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 true -> /usr/lib/busybox/bin/true
+-rwxrwxr-x    1 root     root         14092 Jan  9  2023 tzdetect
+-rwxr-xr-x    1 root     root        424192 Jan  9  2023 udevadm
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 umount -> /usr/lib/busybox/bin/umount
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 uname -> /usr/lib/busybox/bin/uname
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 usleep -> /usr/lib/busybox/bin/usleep
+lrwxrwxrwx    1 root     root            23 Jan  9  2023 vi -> /usr/lib/busybox/bin/vi
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 watch -> /usr/lib/busybox/bin/watch
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 zcat -> /usr/lib/busybox/bin/zcat
+
+
+
