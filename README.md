@@ -1,9 +1,9 @@
 # 5G-USB-Dongle-SDX55
-Fix, Debug, Access, Tools, Tests and more functionalities for this 5G USB Dongle equipped with Qualcomm SDX55 also known as APAL Tributo 5G, COMPAL 5G Dongle, Trincascadeinc VOS 5G.
+Fix, Debug, Access, Tools, Tests and more functionalities for this 5G USB Dongle equipped with Qualcomm SDX55 also known as APAL TRIBUTO 5G, COMPAL 5G Dongle, TRI CASCADE VOS 5G.
 
 + Shell, Linux sdxprairie 4.14.117-perf #1 PREEMPT armv7l GNU/Linux
 + OS release, mdm 202412101203
-+ SW, RXMG1.20.00.326.72_0R19 or RXMG1.20.00.326.73.00_0R19 (upgraded)
++ SW, RXMG1.20.00.326.71_0R19; RXMG1.20.00.326.72_0R19 or RXMG1.20.00.326.73.00_0R19 (upgraded)
 + CPU, codename: SDXPRAIRIE, Quectel RM502Q-AE (compatible)
 + Hardware, Compal GKRRXMG1 M.2 
 
