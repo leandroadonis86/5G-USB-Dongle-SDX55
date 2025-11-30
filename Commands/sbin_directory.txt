@@ -1,0 +1,124 @@
+~ # ls -l /sbin
+total 2564
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 acpid -> /usr/lib/busybox/sbin/acpid
+-rwxr-xr-x    1 root     root         30380 Jan  9  2023 adbd
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 adjtimex -> /usr/lib/busybox/sbin/adjtimex
+-rwxr-xr-x    1 root     root         39176 Jan  9  2023 agetty
+lrwxrwxrwx    1 root     root            25 Jan  9  2023 arp -> /usr/lib/busybox/sbin/arp
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 blkid -> /usr/lib/busybox/sbin/blkid
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 blockdev -> /usr/lib/busybox/sbin/blockdev
+lrwxrwxrwx    1 root     root            32 Jan  9  2023 bootchartd -> /usr/lib/busybox/sbin/bootchartd
+-rwxr-xr-x    1 root     root         38676 Jan  9  2023 bridge
+-rwxr-xr-x    1 root     root          7561 Jan  9  2023 cei_usb_composition
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 depmod -> /sbin/depmod.kmod
+lrwxrwxrwx    1 root     root            11 Jan  9  2023 depmod.kmod -> ../bin/kmod
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 devmem -> /usr/lib/busybox/sbin/devmem
+-rwxr-xr-x    1 root     root        230516 Jan  9  2023 e2fsck
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 fbsplash -> /usr/lib/busybox/sbin/fbsplash
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 fdisk -> /usr/lib/busybox/sbin/fdisk
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 findfs -> /usr/lib/busybox/sbin/findfs
+-rwxr-xr-x    1 root     root         10748 Jan  9  2023 fixfiles
+-rwxr-xr-x    1 root     root         99976 Jan  9  2023 fotaclient
+lrwxrwxrwx    1 root     root            33 Jan  9  2023 freeramdisk -> /usr/lib/busybox/sbin/freeramdisk
+-rwxr-xr-x    1 root     root         26376 Jan  9  2023 fs-scrub-daemon
+lrwxrwxrwx    1 root     root            21 Jan  9  2023 fsck -> /sbin/fsck.util-linux
+-rwxr-xr-x    1 root     root        230516 Jan  9  2023 fsck.ext2
+-rwxr-xr-x    1 root     root        230516 Jan  9  2023 fsck.ext3
+-rwxr-xr-x    1 root     root        230516 Jan  9  2023 fsck.ext4
+-rwxr-xr-x    1 root     root         34516 Jan  9  2023 fsck.util-linux
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 fstrim -> /usr/lib/busybox/sbin/fstrim
+lrwxrwxrwx    1 root     root            12 Jan  9  2023 getty -> /sbin/agetty
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 halt -> /bin/systemctl
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 hdparm -> /usr/lib/busybox/sbin/hdparm
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 hwclock -> /usr/lib/busybox/sbin/hwclock
+-rwxr-xr-x    1 root     root          3110 Jan  9  2023 ifcfg
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 ifconfig -> /usr/lib/busybox/sbin/ifconfig
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 ifdown -> /usr/lib/busybox/sbin/ifdown
+lrwxrwxrwx    1 root     root            31 Jan  9  2023 ifenslave -> /usr/lib/busybox/sbin/ifenslave
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 ifup -> /usr/lib/busybox/sbin/ifup
+lrwxrwxrwx    1 root     root            22 Jan  9  2023 init -> ../lib/systemd/systemd
+-rwxr-xr-x    1 root     root          5760 Jan  9  2023 init_mss
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 inotifyd -> /usr/lib/busybox/sbin/inotifyd
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 insmod -> /sbin/insmod.kmod
+lrwxrwxrwx    1 root     root            11 Jan  9  2023 insmod.kmod -> ../bin/kmod
+lrwxrwxrwx    1 root     root            17 Jan  9  2023 ip -> /sbin/ip.iproute2
+-rwxr-xr-x    1 root     root        246296 Jan  9  2023 ip.iproute2
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 ipaddr -> /usr/lib/busybox/sbin/ipaddr
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 iplink -> /usr/lib/busybox/sbin/iplink
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 iproute -> /usr/lib/busybox/sbin/iproute
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 iprule -> /usr/lib/busybox/sbin/iprule
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 iptunnel -> /usr/lib/busybox/sbin/iptunnel
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 klogd -> /usr/lib/busybox/sbin/klogd
+-rwxr-xr-x    1 root     root        444360 Jan  9  2023 ldconfig
+-rwxr-xr-x    1 root     root          9860 Jan  9  2023 leprop-service
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 loadkmap -> /usr/lib/busybox/sbin/loadkmap
+-rwxr-xr-x    1 root     root         55024 Jan  9  2023 logd
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 logread -> /usr/lib/busybox/sbin/logread
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 losetup -> /usr/lib/busybox/sbin/losetup
+lrwxrwxrwx    1 root     root            15 Jan  9  2023 lsmod -> /bin/lsmod.kmod
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 makedevs -> /usr/lib/busybox/sbin/makedevs
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 mdev -> /usr/lib/busybox/sbin/mdev
+lrwxrwxrwx    1 root     root            31 Jan  9  2023 mkfs.vfat -> /usr/lib/busybox/sbin/mkfs.vfat
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 mkswap -> /usr/lib/busybox/sbin/mkswap
+lrwxrwxrwx    1 root     root            18 Jan  9  2023 modinfo -> /sbin/modinfo.kmod
+lrwxrwxrwx    1 root     root            11 Jan  9  2023 modinfo.kmod -> ../bin/kmod
+lrwxrwxrwx    1 root     root            19 Jan  9  2023 modprobe -> /sbin/modprobe.kmod
+lrwxrwxrwx    1 root     root            11 Jan  9  2023 modprobe.kmod -> ../bin/kmod
+-rwxr-xr-x    1 root     root          1211 Jan  9  2023 mount-copybind
+-r-s--x--x    1 root     root         75744 Jan  9  2023 mount.nfs
+lrwxrwxrwx    1 root     root             9 Jan  9  2023 mount.nfs4 -> mount.nfs
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 nameif -> /usr/lib/busybox/sbin/nameif
+-rwxr-xr-x    1 root     root          2613 Jan  9  2023 osd_login
+lrwxrwxrwx    1 root     root            32 Jan  9  2023 pivot_root -> /usr/lib/busybox/sbin/pivot_root
+-rwxr-xr-x    1 root     root          9860 Jan  9  2023 powerapp
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 poweroff -> /bin/systemctl
+-rwxr-xr-x    1 root     root           947 Jan  9  2023 qseecomd
+lrwxrwxrwx    1 root     root            33 Jan  9  2023 raidautorun -> /usr/lib/busybox/sbin/raidautorun
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 reboot -> /bin/systemctl
+-rwxr-xr-x    1 root     root            48 Jan  9  2023 reboot-bootloader
+-rwxr-xr-x    1 root     root          5764 Jan  9  2023 reboot-daemon
+-rwxr-xr-x    1 root     root            48 Jan  9  2023 reboot-recovery
+lrwxrwxrwx    1 root     root             8 Jan  9  2023 restorecon -> setfiles
+lrwxrwxrwx    1 root     root            16 Jan  9  2023 rmmod -> /sbin/rmmod.kmod
+lrwxrwxrwx    1 root     root            11 Jan  9  2023 rmmod.kmod -> ../bin/kmod
+lrwxrwxrwx    1 root     root            27 Jan  9  2023 route -> /usr/lib/busybox/sbin/route
+-rwxr-xr-x    1 root     root           173 Jan  9  2023 routef
+-rwxr-xr-x    1 root     root          1262 Jan  9  2023 routel
+-rwxr-xr-x    1 root     root         26244 Jan  9  2023 rtmon
+-rwxr-xr-x    1 root     root            35 Jan  9  2023 rtpr
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 runlevel -> /bin/systemctl
+-rwxr-xr-x    1 root     root         18428 Jan  9  2023 semodule
+-rwxr-xr-x    1 root     root         13956 Jan  9  2023 sestatus
+lrwxrwxrwx    1 root     root            32 Jan  9  2023 setconsole -> /usr/lib/busybox/sbin/setconsole
+-rwxr-xr-x    1 root     root         13952 Jan  9  2023 setfiles
+-rwxr-xr-x    1 root     root          1311 Jan  9  2023 sfs_config
+lrwxrwxrwx    1 root     root            14 Jan  9  2023 shutdown -> /bin/systemctl
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 slattach -> /usr/lib/busybox/sbin/slattach
+lrwxrwxrwx    1 root     root            39 Jan  9  2023 start-stop-daemon -> /usr/lib/busybox/sbin/start-stop-daemon
+lrwxrwxrwx    1 root     root            24 Jan  9  2023 sulogin -> /sbin/sulogin.util-linux
+-rwxr-xr-x    1 root     root         34504 Jan  9  2023 sulogin.util-linux
+-rwxr-xr-x    1 root     root            63 Jan  9  2023 sushell
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 swapoff -> /usr/lib/busybox/sbin/swapoff
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 swapon -> /usr/lib/busybox/sbin/swapon
+lrwxrwxrwx    1 root     root            33 Jan  9  2023 switch_root -> /usr/lib/busybox/sbin/switch_root
+-rwxr-xr-x    1 root     root          9860 Jan  9  2023 sys_reboot
+-rwxr-xr-x    1 root     root          9860 Jan  9  2023 sys_shutdown
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 sysctl -> /usr/lib/busybox/sbin/sysctl
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 syslogd -> /usr/lib/busybox/sbin/syslogd
+-rwxr-xr-x    1 root     root        227396 Jan  9  2023 tc
+lrwxrwxrwx    1 root     root            16 Jan  9  2023 telinit -> ../bin/systemctl
+-rwxr-xr-x    1 root     root         67308 Jan  9  2023 tftp_server
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 tunctl -> /usr/lib/busybox/sbin/tunctl
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 udevd -> /lib/systemd/systemd-udevd
+lrwxrwxrwx    1 root     root            28 Jan  9  2023 udhcpc -> /usr/lib/busybox/sbin/udhcpc
+-rwxr-xr-x    1 root     root           344 Jan  9  2023 umount-copybind
+lrwxrwxrwx    1 root     root             9 Jan  9  2023 umount.nfs -> mount.nfs
+lrwxrwxrwx    1 root     root             9 Jan  9  2023 umount.nfs4 -> mount.nfs
+drwxr-xr-x    4 root     root           360 Jan  9  2023 usb
+-rwxr-xr-x    1 root     root          9246 Jan  9  2023 usb_composition
+-rwxr-xr-x    1 root     root          9149 Jan  9  2023 usb_debug
+lrwxrwxrwx    1 root     root            29 Jan  9  2023 vconfig -> /usr/lib/busybox/sbin/vconfig
+lrwxrwxrwx    1 root     root            30 Jan  9  2023 watchdog -> /usr/lib/busybox/sbin/watchdog
+lrwxrwxrwx    1 root     root            26 Jan  9  2023 zcip -> /usr/lib/busybox/sbin/zcip
+
+
