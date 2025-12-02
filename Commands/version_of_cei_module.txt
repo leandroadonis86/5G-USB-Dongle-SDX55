@@ -1,0 +1,12 @@
+/ # cat /oem/cei_branch 
+sdx55-release-LE1.2-post-CS13-M2-Tricascade-VOS
+
+/ # cat /oem/cei_module_ver_id
+RXMG1.20.00.326_0R19
+
+/ # cat /oem/cei_module_ver_rev_id 
+RXMG1.20.00.326.73.00_0R19
+
+/ # cat /oem/cei_module_ver_vos_id 
+RXMG1.20.00.326.73_0R19
+
