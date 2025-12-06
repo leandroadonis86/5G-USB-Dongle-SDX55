@@ -27,12 +27,17 @@ The hardware is composed with a 5G Sub-6GHz module with M2 form factor with 4 co
 
 ### Electronics
 
+![alt text](https://github.com/leandroadonis86/5G-USB-Dongle-SDX55/blob/main/5Gdongle.png)
 
 #### Inside,
 
+- Nano-SIM card reader, (HD3220)
+- M.2 to USB Type C Converter Adapter, SH14 E248779 94V-0; ZX01_GS-419 REV:1C 
+- TRITOM SG500M2-X Module, ZX56 GA-597 Rev:1.0
 
 #### Functionalities,
 
+...
 
 ### Upgrade
 Can be upgraded and drivers are available at tricascadeinc.com.
@@ -43,6 +48,8 @@ Can be upgraded and drivers are available at tricascadeinc.com.
 For now, I didn't find any issues or cybersecurity report on internet but there are some safety issues: On SSH session device still have builtin manufacture password that can be acessed by external clients with admin\root privileges and have total control of system files\services. This device use cgi-web style that can be a target for code injection.
 
 ### Troubleshooting
+
+...
 
 ## Access
 
@@ -62,7 +69,7 @@ Any other Access can be block or allow with iptables available in the system.
 
 1. USB-C to USB-C Data cable for 10Gbs only and direct connected.
 2. Avoid firmware update it can go wrong in the update proccess.
-3. Change as possible SSH admin password and Web GUI password.
+3. Change as possible admin password at WebGUI.
 
 ## Development
 One way easy to build an executable to run it on router is using the cross-compile option. Device system doesn't have any gcc toolchain to compile C however it runs files detailed like below:
