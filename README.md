@@ -40,7 +40,7 @@ The hardware is composed with a 5G Sub-6GHz module with M2 form factor with 4 co
 ...
 
 ### Upgrade
-Can be upgraded and drivers are available at tricascadeinc.com.
+Can be upgraded and drivers are available at [tricascadeinc.com.](https://www.tricascadeinc.com/internaldownloadcenter)
 
 ## Issues
 
