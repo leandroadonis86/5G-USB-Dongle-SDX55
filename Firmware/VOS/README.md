@@ -180,11 +180,11 @@ Character device major/minor: 236:1
 
 # Q&A
 
-> What system was used to extract the FOTA firmware?
+> What system was used to extract the FOTA firmware and simulate NAND?
 
 Ubuntu Release 20.04.6 LTS (Focal Fossa) 64-bit.
 
-> What pakages need to install?
+> What packages need to install?
 
 binwalk, mtd-utils.
 
