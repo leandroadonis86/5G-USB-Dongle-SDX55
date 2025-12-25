@@ -5,7 +5,7 @@ Firmware steps and upgrade file `FOTA_326-72-6_to_326-73-0_0R19.zip` or `FOTA_32
 
 # EXTRACT FOTA FIRMWARE
 
-The module TRITOM SG500M2-X M.2 use the memory IC MT "JZ080". The IC JZ080 is a marking code (FBGA code) for the Micron MT29GZ5A5BPGGA-53IT.87J memory component, which is an e.MMC (managed NAND memory) device with integrated LPDDR4 memory.
+The module TRITOM SG500M2-X M.2 use the memory IC MT "JZ080". The IC JZ080 is a marking code (FBGA code) for the Micron MT29GZ5A5BPGGA-53IT.87J memory component also known MT29F4G08ABBFA, which is an e.MMC (managed NAND memory) device with integrated LPDDR4 memory.
 
 Technical Specifications:
 
