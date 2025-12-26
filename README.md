@@ -35,7 +35,7 @@ The hardware is composed with a 5G Sub-6GHz module with M2 form factor with 4 co
 - M.2 to USB Type C Converter Adapter, SH14 E248779 94V-0; ZX01_GS-419 REV:1C 
 - TRITOM SG500M2-X Module, ZX56 GA-597 Rev:1.0
 
-The module TRITOM SG500M2-X M.2 use the memory IC MT "JZ080". The IC JZ080 is a marking code (FBGA code) for the Micron MT29GZ5A5BPGGA-53IT.87J memory component, which is an e.MMC (managed NAND memory) device with integrated LPDDR4 memory.
+The module TRITOM SG500M2-X M.2 use the memory IC MT "JZ080". The IC JZ080 is a marking code (FBGA code) for the Micron MT29GZ5A5BPGGA-53IT.87J memory component also known MT29F4G08ABBFA, which is an e.MMC (managed NAND memory) device with integrated LPDDR4 memory.
 
 #### Functionalities,
 
