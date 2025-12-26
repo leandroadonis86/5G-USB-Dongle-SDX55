@@ -128,7 +128,7 @@ Present volumes:                         0
 
 `$ sudo mkdir -p /mnt/ubifs-root`
 
-10) Check if module "ubi sile system type" is active in the system to be able to mount
+10) Check if module "ubi system type" is active in the system to be able to mount
 
 ```
 $ cat /proc/filesystems
