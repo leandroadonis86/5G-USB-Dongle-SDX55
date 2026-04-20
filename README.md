@@ -48,7 +48,7 @@ Can be upgraded and drivers are available at [tricascadeinc.com.](https://www.tr
 ## Issues
 
 ### Vulnerability
-For now, I didn't find any issues or cybersecurity report on internet but there are some safety issues: On SSH session device still have builtin manufacture password that can be acessed by external clients with admin\root privileges and have total control of system files\services. This device use cgi-web style that can be a target for code injection.
+For now, I didn't find any issues or cybersecurity report on internet but there are some safety issues: On SSH session device still have builtin manufacture password that can be acessed by external clients with admin\root privileges and have total control of system files\services. This device use cgi-web style that can be a target for code injection ref. CVE-2019-7746
 
 ### Troubleshooting
 
